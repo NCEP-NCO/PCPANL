@@ -1,0 +1,45 @@
+#%Module######################################################################
+##                                                           Jun.Du@noaa.gov
+##                                                           NOAA/NWS/NCEP/EMC
+## PCPANL v4.1.0
+##_____________________________________________________
+proc ModulesHelp { } {
+puts stderr "Set environment veriables for PCPANL"
+puts stderr "This module initializes the environment "
+puts stderr "for the Intel Compiler Suite $version\n"
+}
+module-whatis "PCPANL whatis description"
+
+set ver v4.1.0
+set envir prod
+
+set sys [uname sysname]
+
+setenv COMP ftn
+
+setenv D_FFLAGS_CHKBNDS "-g -check bounds -traceback"
+
+# Loading Intel Compiler Suite
+#module load ips/18.0.1.163
+#module load impi/18.0.1
+
+# Loading nceplibs modules
+module load bacio/2.4.1
+module load w3nco/2.4.1
+module load w3emc/2.9.1
+
+# For grib2: 
+module load g2/3.4.1
+module load jasper/2.0.25
+module load libpng/1.6.37
+module load zlib/1.2.11
+module load wgrib2/2.0.8
+
+# user library:
+# For developer
+#setenv WGRIB2LIB /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.${ver}/lib/grib2/lib/libwgrib2.a
+#setenv WGRIB2INC /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.${ver}/lib/grib2/lib
+# For NCO
+#setenv WGRIB2LIB /lfs/h1/ops/prod/packages/pcpanl.${ver}/lib/grib2/lib/libwgrib2.a
+#setenv WGRIB2INC /lfs/h1/ops/prod/packages/pcpanl.${ver}/lib/grib2/lib
+

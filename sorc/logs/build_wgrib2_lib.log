@@ -1,0 +1,2398 @@
+++ export CC=cc
+++ CC=cc
+++ export FC=ftn
+++ FC=ftn
+++ export COMP_SYS=intel_linux
+++ COMP_SYS=intel_linux
+++ make
+cd "/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2" && export CFLAGS="-I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include " && ./configure --disable-shared --prefix=/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2 && make check install
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for gcc... cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether cc accepts -g... yes
+checking for cc option to accept ISO C89... none needed
+checking whether cc understands -c and -o together... yes
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by cc... /usr/x86_64-suse-linux/bin/ld
+checking if the linker (/usr/x86_64-suse-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 3458764513820540925
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/x86_64-suse-linux/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... gawk
+checking command to parse /usr/bin/nm -B output from cc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... cc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if cc supports -fno-rtti -fno-exceptions... yes
+checking for cc option to produce PIC... -fPIC -DPIC
+checking if cc PIC flag -fPIC -DPIC works... yes
+checking if cc static flag -static works... no
+checking if cc supports -c -o file.o... yes
+checking if cc supports -c -o file.o... (cached) yes
+checking whether the cc linker (/usr/x86_64-suse-linux/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+./configure: line 11359: gl_VISIBILITY: command not found
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/config/missing: Unknown `--is-lightweight' option
+Try `/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/config/missing --help' for more information
+configure: WARNING: 'missing' script is too old or missing
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of cc... gcc3
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking for cc option to accept ISO C99... none needed
+checking for ANSI C header files... (cached) yes
+checking whether byte ordering is bigendian... no
+checking for inline... inline
+checking for int64_t... yes
+checking for size_t... yes
+checking for uint32_t... yes
+checking for uint64_t... yes
+checking for uint8_t... yes
+checking for inline... (cached) inline
+checking for C/C++ restrict keyword... __restrict
+checking for memset... yes
+checking for strstr... yes
+checking for snprintf... yes
+checking whether __builtin_clzll is declared... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating config/config.h
+config.status: config/config.h is unchanged
+config.status: executing libtool commands
+config.status: executing depfiles commands
+make[1]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2'
+Making check in src
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/src'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/src'
+Making check in tests
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/tests'
+make  libcheck_aec.la check_code_options check_buffer_sizes check_long_fs check_szcomp
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/tests'
+make[3]: 'libcheck_aec.la' is up to date.
+make[3]: 'check_code_options' is up to date.
+make[3]: 'check_buffer_sizes' is up to date.
+make[3]: 'check_long_fs' is up to date.
+make[3]: 'check_szcomp' is up to date.
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/tests'
+make  check-TESTS
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/tests'
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/tests'
+PASS: check_code_options
+PASS: check_buffer_sizes
+PASS: check_long_fs
+PASS: sampledata.sh
+PASS: szcomp.sh
+============================================================================
+Testsuite summary for libaec 1.0.2
+============================================================================
+# TOTAL: 5
+# PASS:  5
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/tests'
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/tests'
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/tests'
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2'
+Making install in src
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/src'
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/src'
+ /usr/bin/mkdir -p '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libaec.la libsz.la '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib'
+libtool: install: /usr/bin/install -c .libs/libaec.lai /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libaec.la
+libtool: install: /usr/bin/install -c .libs/libsz.lai /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libsz.la
+libtool: install: /usr/bin/install -c .libs/libaec.a /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libaec.a
+libtool: install: chmod 644 /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libaec.a
+libtool: install: ranlib /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libaec.a
+libtool: install: /usr/bin/install -c .libs/libsz.a /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libsz.a
+libtool: install: chmod 644 /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libsz.a
+libtool: install: ranlib /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libsz.a
+libtool: finish: PATH="/apps/ops/prod/libs/intel/19.1.3.304/wgrib2/2.0.8/bin:/apps/spack/libpng/1.6.37/intel/19.1.3.304/4ohkronuhlyherusoszzrmur5ewvlwzh/bin:/apps/spack/jasper/2.0.25/intel/19.1.3.304/sjib74krrorkyczqpqah4tvewmlnqdx4/bin:/pe/intel/compilers_and_libraries_2020.4.304/linux/bin/intel64:/pe/intel/compilers_and_libraries_2020.4.304/linux/bin:/pe/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/bin:/pe/intel/debugger_2020/gdb/intel64/bin:/opt/cray/pe/craype/2.7.8/bin:/opt/cray/libfabric/1.11.0.4.75/bin:/opt/clmgr/sbin:/opt/clmgr/bin:/opt/sgi/sbin:/opt/sgi/bin:/usr/local/bin:/usr/bin:/bin:/usr/lib/mit/bin:/usr/lib/mit/sbin:/opt/pbs/bin:/sbin:/u/Jun.Du/bin:/lfs/h2/emc/lam/noscrub/Jun.Du/dbrowse:/usrx/local/emc_rocoto/1.2.3/bin:/opt/cray/pe/bin:/sbin" ldconfig -n /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c aec '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/bin'
+libtool: install: /usr/bin/install -c aec /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/bin/aec
+ /usr/bin/mkdir -p '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include'
+ /usr/bin/install -c -m 644 libaec.h szlib.h '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include'
+ /usr/bin/mkdir -p '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/man/man1'
+ /usr/bin/install -c -m 644 aec.1 '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/man/man1'
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/src'
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/src'
+Making install in tests
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/tests'
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/tests'
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2/tests'
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2'
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2'
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2'
+make[1]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libaec-1.0.2'
+cd /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3 && export CPPFLAGS="-I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2" && ./configure --enable-c-only --prefix=/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2 && make check install
+configure: netCDF 3.6.3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+configure: checking user options
+checking whether CXX is set to ''... no
+checking whether FC is set to ''... no
+checking whether F90 is set to ''... no
+checking whether this is a netCDF-4.x build... no
+checking whether netCDF extra tests should be run (developers only)... no
+checking whether documentation is to be installed... no
+checking whether Fortran compiler(s) should be tested during configure... yes
+checking whether configure should try to set compiler flags... yes
+checking whether FFIO will be used... no
+checking whether to skip C++, F77, or F90 APIs if compiler is broken... yes
+checking whether only the C library is desired... yes
+checking whether examples should be built... no
+checking whether F77 API is desired... no
+checking whether F90 API is desired... no
+checking whether fortran type sizes should be checked... yes
+checking whether C API is desired... yes
+checking where to get netCDF C-only library for separate fortran libraries... 
+checking whether CXX API is desired... no
+checking whether v2 netCDF API should be built... no
+checking whether the ncgen/ncdump should be built... no
+checking whether large file (> 2GB) tests should be run... no
+checking whether benchmaks should be run (experimental)... no
+checking whether extreme numbers should be used in tests... yes
+checking where to put large temp files if large file tests are run... .
+checking whether a win32 DLL is desired... no
+checking whether separate fortran libs are desired... no
+configure: finding C compiler
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether cc accepts -g... yes
+checking for cc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of cc... gcc3
+checking whether cc understands -c and -o together... yes
+checking for an ANSI C-conforming const... yes
+configure: finding Fortran compiler (will not be used if Fortran API is not desired)
+checking whether we are using the GNU Fortran compiler... no
+checking whether ftn accepts -g... yes
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether ftn accepts -g... yes
+configure: finding C++ compiler (will not be used if C++ API is not desired)
+checking for cl... no
+checking for KCC... no
+checking for CC... CC
+checking whether we are using the GNU C++ compiler... yes
+checking whether CC accepts -g... yes
+checking dependency style of CC... gcc3
+configure: setting up libtool
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by cc... /usr/x86_64-suse-linux/bin/ld
+checking if the linker (/usr/x86_64-suse-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 3458764513820540925
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/x86_64-suse-linux/bin/ld option to reload object files... -r
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from cc object... ok
+checking how to run the C preprocessor... cc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether CC accepts -g... (cached) yes
+checking dependency style of CC... (cached) gcc3
+checking how to run the C++ preprocessor... CC -E
+checking whether we are using the GNU Fortran 77 compiler... (cached) no
+checking whether ftn accepts -g... (cached) yes
+checking whether we are using the GNU Fortran compiler... (cached) no
+checking whether ftn accepts -g... (cached) yes
+checking for objdir... .libs
+checking if cc supports -fno-rtti -fno-exceptions... yes
+checking for cc option to produce PIC... -fPIC -DPIC
+checking if cc PIC flag -fPIC -DPIC works... yes
+checking if cc static flag -static works... no
+checking if cc supports -c -o file.o... yes
+checking if cc supports -c -o file.o... (cached) yes
+checking whether the cc linker (/usr/x86_64-suse-linux/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for ld used by CC... /usr/x86_64-suse-linux/bin/ld -m elf_x86_64
+checking if the linker (/usr/x86_64-suse-linux/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the CC linker (/usr/x86_64-suse-linux/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for CC option to produce PIC... -fPIC -DPIC
+checking if CC PIC flag -fPIC -DPIC works... yes
+checking if CC static flag -static works... no
+checking if CC supports -c -o file.o... yes
+checking if CC supports -c -o file.o... (cached) yes
+checking whether the CC linker (/usr/x86_64-suse-linux/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for ftn option to produce PIC... 
+checking if ftn static flag  works... yes
+checking if ftn supports -c -o file.o... yes
+checking if ftn supports -c -o file.o... (cached) yes
+checking whether the ftn linker (/usr/x86_64-suse-linux/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for ftn option to produce PIC... 
+checking if ftn static flag  works... yes
+checking if ftn supports -c -o file.o... yes
+checking if ftn supports -c -o file.o... (cached) yes
+checking whether the ftn linker (/usr/x86_64-suse-linux/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+configure: finding other utilities
+checking for a BSD-compatible install... /usr/bin/install -c
+configure: trying to set flags for this platform
+checking if _HPUX_SOURCE should be set... no
+checking if Solaris -Xa option is needed... CFLAGS=-g -O2
+checking if we need to set _LARGE_FILES despite results of previous tests... _LARGE_FILES=
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+configure: displaying some results
+checking CPPFLAGS... -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2
+checking CC CFLAGS... cc -g -O2
+checking type cc... cc is /opt/cray/pe/craype/2.7.8/bin/cc
+checking CXX... CC
+checking CXXFLAGS... -g -O2
+checking type CC... CC is /opt/cray/pe/craype/2.7.8/bin/CC
+checking FC... ftn
+checking FFLAGS... -g
+checking type ftn... ftn is /opt/cray/pe/craype/2.7.8/bin/ftn
+checking F90... unset
+checking AR... ar
+checking AR_FLAGS... cru
+checking type ar... ar is /usr/bin/ar
+checking NM... /usr/bin/nm -B
+checking NMFLAGS... 
+configure: checking types, headers, and functions
+checking for stdlib.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for strlcat... no
+checking for strerror... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether isnan is declared... yes
+checking whether isinf is declared... yes
+checking whether isfinite is declared... yes
+checking whether signbit is declared... yes
+checking for struct stat.st_blksize... yes
+checking for IEEE floating point format... yes
+checking for size_t... yes
+checking for off_t... yes
+checking for ssize_t... yes
+checking for ptrdiff_t... yes
+checking for uchar... no
+checking whether char is unsigned... no
+checking whether byte ordering is bigendian... no
+checking size of short... 2
+checking size of int... 4
+checking size of long... 8
+checking size of float... 4
+checking size of double... 8
+checking size of off_t... 8
+checking size of size_t... 8
+checking for manual-page index command... 
+checking what to call the output of the ftpbin target... binary-netcdf-3.6.3_nc3.tar ftn CC
+checking binary distribution directory... /home/ftp/pub/binary/dummy_system
+checking for gawk... (cached) gawk
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+configure: generating header files and makefiles
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating man/Makefile
+config.status: creating man4/Makefile
+config.status: creating fortran/Makefile
+config.status: creating libsrc/Makefile
+config.status: creating libsrc4/Makefile
+config.status: creating nctest/Makefile
+config.status: creating nc_test4/Makefile
+config.status: creating nc_test/Makefile
+config.status: creating ncdump/Makefile
+config.status: creating ncgen/Makefile
+config.status: creating nf_test/Makefile
+config.status: creating cxx/Makefile
+config.status: creating cxx4/Makefile
+config.status: creating f90/Makefile
+config.status: creating examples/Makefile
+config.status: creating examples/C/Makefile
+config.status: creating examples/CDL/Makefile
+config.status: creating examples/CXX/Makefile
+config.status: creating examples/CXX4/Makefile
+config.status: creating examples/F90/Makefile
+config.status: creating examples/F77/Makefile
+config.status: creating win32/Makefile
+config.status: creating win32/NET/Makefile
+config.status: creating win32/NET/libsrc/Makefile
+config.status: creating win32/NET/ncdump/Makefile
+config.status: creating win32/NET/ncgen/Makefile
+config.status: creating win32/NET/examples/Makefile
+config.status: creating win32/NET/nctest/Makefile
+config.status: creating win32/NET/nc_test/Makefile
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: creating fortran/nfconfig1.inc
+config.status: fortran/nfconfig1.inc is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make[1]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3'
+cd . && /bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run aclocal-1.10 
+/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing: line 54: aclocal-1.10: command not found
+WARNING: `aclocal-1.10' is missing on your system.  You should only need it if
+         you modified `acinclude.m4' or `configure.ac'.  You might want
+         to install the `Automake' and `Perl' packages.  Grab them from
+         any GNU archive site.
+ cd . && /bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run automake-1.10 --foreign 
+/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing: line 54: automake-1.10: command not found
+WARNING: `automake-1.10' is missing on your system.  You should only need it if
+         you modified `Makefile.am', `acinclude.m4' or `configure.ac'.
+         You might want to install the `Automake' and `Perl' packages.
+         Grab them from any GNU archive site.
+cd . && /bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run autoconf
+aclocal.m4:14: error: this file was generated for autoconf 2.62.
+You have another version of autoconf.  If you want to use that,
+you should regenerate the build system entirely.
+aclocal.m4:14: the top level
+autom4te: /usr/bin/m4 failed with exit status: 63
+WARNING: `autoconf' is probably too old.  You should only need it if
+         you modified `configure.ac'.  You might want to install the
+         `Autoconf' and `GNU m4' packages.  Grab them from any GNU
+         archive site.
+/bin/sh ./config.status --recheck
+running CONFIG_SHELL=/bin/sh /bin/sh ./configure --enable-c-only --prefix=/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2 CC=cc CPPFLAGS=-I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 FC=ftn --no-create --no-recursion
+configure: netCDF 3.6.3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+configure: checking user options
+checking whether CXX is set to ''... no
+checking whether FC is set to ''... no
+checking whether F90 is set to ''... no
+checking whether this is a netCDF-4.x build... no
+checking whether netCDF extra tests should be run (developers only)... no
+checking whether documentation is to be installed... no
+checking whether Fortran compiler(s) should be tested during configure... yes
+checking whether configure should try to set compiler flags... yes
+checking whether FFIO will be used... no
+checking whether to skip C++, F77, or F90 APIs if compiler is broken... yes
+checking whether only the C library is desired... yes
+checking whether examples should be built... no
+checking whether F77 API is desired... no
+checking whether F90 API is desired... no
+checking whether fortran type sizes should be checked... yes
+checking whether C API is desired... yes
+checking where to get netCDF C-only library for separate fortran libraries... 
+checking whether CXX API is desired... no
+checking whether v2 netCDF API should be built... no
+checking whether the ncgen/ncdump should be built... no
+checking whether large file (> 2GB) tests should be run... no
+checking whether benchmaks should be run (experimental)... no
+checking whether extreme numbers should be used in tests... yes
+checking where to put large temp files if large file tests are run... .
+checking whether a win32 DLL is desired... no
+checking whether separate fortran libs are desired... no
+configure: finding C compiler
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether cc accepts -g... yes
+checking for cc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of cc... gcc3
+checking whether cc understands -c and -o together... yes
+checking for an ANSI C-conforming const... yes
+configure: finding Fortran compiler (will not be used if Fortran API is not desired)
+checking whether we are using the GNU Fortran compiler... no
+checking whether ftn accepts -g... yes
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether ftn accepts -g... yes
+configure: finding C++ compiler (will not be used if C++ API is not desired)
+checking for cl... no
+checking for KCC... no
+checking for CC... CC
+checking whether we are using the GNU C++ compiler... yes
+checking whether CC accepts -g... yes
+checking dependency style of CC... gcc3
+configure: setting up libtool
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by cc... /usr/x86_64-suse-linux/bin/ld
+checking if the linker (/usr/x86_64-suse-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 3458764513820540925
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/x86_64-suse-linux/bin/ld option to reload object files... -r
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from cc object... ok
+checking how to run the C preprocessor... cc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether CC accepts -g... (cached) yes
+checking dependency style of CC... (cached) gcc3
+checking how to run the C++ preprocessor... CC -E
+checking whether we are using the GNU Fortran 77 compiler... (cached) no
+checking whether ftn accepts -g... (cached) yes
+checking whether we are using the GNU Fortran compiler... (cached) no
+checking whether ftn accepts -g... (cached) yes
+checking for objdir... .libs
+checking if cc supports -fno-rtti -fno-exceptions... yes
+checking for cc option to produce PIC... -fPIC -DPIC
+checking if cc PIC flag -fPIC -DPIC works... yes
+checking if cc static flag -static works... no
+checking if cc supports -c -o file.o... yes
+checking if cc supports -c -o file.o... (cached) yes
+checking whether the cc linker (/usr/x86_64-suse-linux/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for ld used by CC... /usr/x86_64-suse-linux/bin/ld -m elf_x86_64
+checking if the linker (/usr/x86_64-suse-linux/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the CC linker (/usr/x86_64-suse-linux/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for CC option to produce PIC... -fPIC -DPIC
+checking if CC PIC flag -fPIC -DPIC works... yes
+checking if CC static flag -static works... no
+checking if CC supports -c -o file.o... yes
+checking if CC supports -c -o file.o... (cached) yes
+checking whether the CC linker (/usr/x86_64-suse-linux/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for ftn option to produce PIC... 
+checking if ftn static flag  works... yes
+checking if ftn supports -c -o file.o... yes
+checking if ftn supports -c -o file.o... (cached) yes
+checking whether the ftn linker (/usr/x86_64-suse-linux/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for ftn option to produce PIC... 
+checking if ftn static flag  works... yes
+checking if ftn supports -c -o file.o... yes
+checking if ftn supports -c -o file.o... (cached) yes
+checking whether the ftn linker (/usr/x86_64-suse-linux/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+configure: finding other utilities
+checking for a BSD-compatible install... /usr/bin/install -c
+configure: trying to set flags for this platform
+checking if _HPUX_SOURCE should be set... no
+checking if Solaris -Xa option is needed... CFLAGS=-g -O2
+checking if we need to set _LARGE_FILES despite results of previous tests... _LARGE_FILES=
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+configure: displaying some results
+checking CPPFLAGS... -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2
+checking CC CFLAGS... cc -g -O2
+checking type cc... cc is /opt/cray/pe/craype/2.7.8/bin/cc
+checking CXX... CC
+checking CXXFLAGS... -g -O2
+checking type CC... CC is /opt/cray/pe/craype/2.7.8/bin/CC
+checking FC... ftn
+checking FFLAGS... -g
+checking type ftn... ftn is /opt/cray/pe/craype/2.7.8/bin/ftn
+checking F90... unset
+checking AR... ar
+checking AR_FLAGS... cru
+checking type ar... ar is /usr/bin/ar
+checking NM... /usr/bin/nm -B
+checking NMFLAGS... 
+configure: checking types, headers, and functions
+checking for stdlib.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for strlcat... no
+checking for strerror... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether isnan is declared... yes
+checking whether isinf is declared... yes
+checking whether isfinite is declared... yes
+checking whether signbit is declared... yes
+checking for struct stat.st_blksize... yes
+checking for IEEE floating point format... yes
+checking for size_t... yes
+checking for off_t... yes
+checking for ssize_t... yes
+checking for ptrdiff_t... yes
+checking for uchar... no
+checking whether char is unsigned... no
+checking whether byte ordering is bigendian... no
+checking size of short... 2
+checking size of int... 4
+checking size of long... 8
+checking size of float... 4
+checking size of double... 8
+checking size of off_t... 8
+checking size of size_t... 8
+checking for manual-page index command... 
+checking what to call the output of the ftpbin target... binary-netcdf-3.6.3_nc3.tar ftn CC
+checking binary distribution directory... /home/ftp/pub/binary/dummy_system
+checking for gawk... (cached) gawk
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+configure: generating header files and makefiles
+configure: creating ./config.status
+ /bin/sh ./config.status
+config.status: creating Makefile
+config.status: creating man/Makefile
+config.status: creating man4/Makefile
+config.status: creating fortran/Makefile
+config.status: creating libsrc/Makefile
+config.status: creating libsrc4/Makefile
+config.status: creating nctest/Makefile
+config.status: creating nc_test4/Makefile
+config.status: creating nc_test/Makefile
+config.status: creating ncdump/Makefile
+config.status: creating ncgen/Makefile
+config.status: creating nf_test/Makefile
+config.status: creating cxx/Makefile
+config.status: creating cxx4/Makefile
+config.status: creating f90/Makefile
+config.status: creating examples/Makefile
+config.status: creating examples/C/Makefile
+config.status: creating examples/CDL/Makefile
+config.status: creating examples/CXX/Makefile
+config.status: creating examples/CXX4/Makefile
+config.status: creating examples/F90/Makefile
+config.status: creating examples/F77/Makefile
+config.status: creating win32/Makefile
+config.status: creating win32/NET/Makefile
+config.status: creating win32/NET/libsrc/Makefile
+config.status: creating win32/NET/ncdump/Makefile
+config.status: creating win32/NET/ncgen/Makefile
+config.status: creating win32/NET/examples/Makefile
+config.status: creating win32/NET/nctest/Makefile
+config.status: creating win32/NET/nc_test/Makefile
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: creating fortran/nfconfig1.inc
+config.status: fortran/nfconfig1.inc is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+Making check in libsrc
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc'
+make  check-am
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc'
+depbase=`echo attr.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I. -I.. -I../fortran      -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT attr.lo -MD -MP -MF $depbase.Tpo -c -o attr.lo attr.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -I.. -I../fortran -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -g -O2 -MT attr.lo -MD -MP -MF .deps/attr.Tpo -c attr.c -o attr.o
+depbase=`echo ncx.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I. -I.. -I../fortran      -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT ncx.lo -MD -MP -MF $depbase.Tpo -c -o ncx.lo ncx.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -I.. -I../fortran -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -g -O2 -MT ncx.lo -MD -MP -MF .deps/ncx.Tpo -c ncx.c -o ncx.o
+depbase=`echo putget.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I. -I.. -I../fortran      -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT putget.lo -MD -MP -MF $depbase.Tpo -c -o putget.lo putget.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -I.. -I../fortran -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -g -O2 -MT putget.lo -MD -MP -MF .deps/putget.Tpo -c putget.c -o putget.o
+depbase=`echo dim.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I. -I.. -I../fortran      -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT dim.lo -MD -MP -MF $depbase.Tpo -c -o dim.lo dim.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -I.. -I../fortran -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -g -O2 -MT dim.lo -MD -MP -MF .deps/dim.Tpo -c dim.c -o dim.o
+depbase=`echo error.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I. -I.. -I../fortran      -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT error.lo -MD -MP -MF $depbase.Tpo -c -o error.lo error.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -I.. -I../fortran -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -g -O2 -MT error.lo -MD -MP -MF .deps/error.Tpo -c error.c -o error.o
+depbase=`echo libvers.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I. -I.. -I../fortran      -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT libvers.lo -MD -MP -MF $depbase.Tpo -c -o libvers.lo libvers.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -I.. -I../fortran -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -g -O2 -MT libvers.lo -MD -MP -MF .deps/libvers.Tpo -c libvers.c -o libvers.o
+depbase=`echo nc.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I. -I.. -I../fortran      -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT nc.lo -MD -MP -MF $depbase.Tpo -c -o nc.lo nc.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -I.. -I../fortran -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -g -O2 -MT nc.lo -MD -MP -MF .deps/nc.Tpo -c nc.c -o nc.o
+depbase=`echo string.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I. -I.. -I../fortran      -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT string.lo -MD -MP -MF $depbase.Tpo -c -o string.lo string.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -I.. -I../fortran -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -g -O2 -MT string.lo -MD -MP -MF .deps/string.Tpo -c string.c -o string.o
+depbase=`echo v1hpg.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I. -I.. -I../fortran      -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT v1hpg.lo -MD -MP -MF $depbase.Tpo -c -o v1hpg.lo v1hpg.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -I.. -I../fortran -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -g -O2 -MT v1hpg.lo -MD -MP -MF .deps/v1hpg.Tpo -c v1hpg.c -o v1hpg.o
+depbase=`echo var.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I. -I.. -I../fortran      -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT var.lo -MD -MP -MF $depbase.Tpo -c -o var.lo var.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -I.. -I../fortran -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -g -O2 -MT var.lo -MD -MP -MF .deps/var.Tpo -c var.c -o var.o
+depbase=`echo utf8proc.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I. -I.. -I../fortran      -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT utf8proc.lo -MD -MP -MF $depbase.Tpo -c -o utf8proc.lo utf8proc.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -I.. -I../fortran -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -g -O2 -MT utf8proc.lo -MD -MP -MF .deps/utf8proc.Tpo -c utf8proc.c -o utf8proc.o
+depbase=`echo posixio.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I. -I.. -I../fortran      -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT posixio.lo -MD -MP -MF $depbase.Tpo -c -o posixio.lo posixio.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -I.. -I../fortran -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -g -O2 -MT posixio.lo -MD -MP -MF .deps/posixio.Tpo -c posixio.c -o posixio.o
+/bin/sh ../libtool --tag=CC   --mode=link cc  -g -O2    -version-info 4:0:0   -o libnetcdf.la -rpath /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib attr.lo ncx.lo putget.lo dim.lo error.lo libvers.lo nc.lo string.lo v1hpg.lo var.lo utf8proc.lo  posixio.lo   
+libtool: link: rm -fr  .libs/libnetcdf.a .libs/libnetcdf.la .libs/libnetcdf.lai
+libtool: link: ar cru .libs/libnetcdf.a  attr.o ncx.o putget.o dim.o error.o libvers.o nc.o string.o v1hpg.o var.o utf8proc.o posixio.o
+libtool: link: ranlib .libs/libnetcdf.a
+libtool: link: ( cd ".libs" && rm -f "libnetcdf.la" && ln -s "../libnetcdf.la" "libnetcdf.la" )
+m4  -DAPI=C ../man/netcdf.m4 >netcdf.3  || rm netcdf.3
+make  t_nc
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc'
+cc -DHAVE_CONFIG_H -I. -I.. -I../fortran   -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT t_nc-t_nc.o -MD -MP -MF .deps/t_nc-t_nc.Tpo -c -o t_nc-t_nc.o `test -f 't_nc.c' || echo './'`t_nc.c
+mv -f .deps/t_nc-t_nc.Tpo .deps/t_nc-t_nc.Po
+/bin/sh ../libtool --tag=CC   --mode=link cc  -g -O2     -o t_nc t_nc-t_nc.o libnetcdf.la 
+libtool: link: cc -g -O2 -o t_nc t_nc-t_nc.o  ./.libs/libnetcdf.a
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc'
+make  check-TESTS
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc'
+trying again
+dimrename: IXX
+nc_close ret = 0
+
+reopen id = 3 for filename test.nc
+NC done
+GATTR VAR VATTR
+VATTR
+VATTR
+VATTR
+VATTR
+VATTR
+fill_seq indices	 1 2 3	75.000000 != 2.718282
+Done
+got val = 3.250000
+got val = 0.000000
+got val = 2.718282
+got val = 82555
+got val = 97
+got NC_CHAR val = A (0x41) 
+got NC_CHAR val = B (0x42) 
+got NC_CHAR val = "The red death had long devastated the country."
+got val = A (0x41) 
+got val = B (0x42) 
+got val = "The red death had long devastated the country."
+got vals = 0.000000 ... 447.000000
+re nc_close ret = 0
+PASS: t_nc
+==================
+All 1 tests passed
+==================
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc'
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc'
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc'
+Making check in nc_test
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/nc_test'
+make  tst_small nc_test tst_misc tst_norm tst_names 
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/nc_test'
+depbase=`echo tst_small.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+cc -DHAVE_CONFIG_H -I. -I.. -I../fortran  -I..     -I../libsrc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT tst_small.o -MD -MP -MF $depbase.Tpo -c -o tst_small.o tst_small.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool --tag=CC   --mode=link cc  -g -O2 -L../libsrc  -o tst_small tst_small.o -lm   ../libsrc/libnetcdf.la 
+libtool: link: cc -g -O2 -o tst_small tst_small.o  -L/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc -lm ../libsrc/.libs/libnetcdf.a
+depbase=`echo nc_test.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+cc -DHAVE_CONFIG_H -I. -I.. -I../fortran  -I..     -I../libsrc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT nc_test.o -MD -MP -MF $depbase.Tpo -c -o nc_test.o nc_test.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo error.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+cc -DHAVE_CONFIG_H -I. -I.. -I../fortran  -I..     -I../libsrc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT error.o -MD -MP -MF $depbase.Tpo -c -o error.o error.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test_get.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+cc -DHAVE_CONFIG_H -I. -I.. -I../fortran  -I..     -I../libsrc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT test_get.o -MD -MP -MF $depbase.Tpo -c -o test_get.o test_get.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test_put.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+cc -DHAVE_CONFIG_H -I. -I.. -I../fortran  -I..     -I../libsrc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT test_put.o -MD -MP -MF $depbase.Tpo -c -o test_put.o test_put.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test_read.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+cc -DHAVE_CONFIG_H -I. -I.. -I../fortran  -I..     -I../libsrc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT test_read.o -MD -MP -MF $depbase.Tpo -c -o test_read.o test_read.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test_write.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+cc -DHAVE_CONFIG_H -I. -I.. -I../fortran  -I..     -I../libsrc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT test_write.o -MD -MP -MF $depbase.Tpo -c -o test_write.o test_write.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo util.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+cc -DHAVE_CONFIG_H -I. -I.. -I../fortran  -I..     -I../libsrc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT util.o -MD -MP -MF $depbase.Tpo -c -o util.o util.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool --tag=CC   --mode=link cc  -g -O2 -L../libsrc  -o nc_test nc_test.o error.o test_get.o test_put.o test_read.o test_write.o util.o -lm   ../libsrc/libnetcdf.la 
+libtool: link: cc -g -O2 -o nc_test nc_test.o error.o test_get.o test_put.o test_read.o test_write.o util.o  -L/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc -lm ../libsrc/.libs/libnetcdf.a
+depbase=`echo tst_misc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+cc -DHAVE_CONFIG_H -I. -I.. -I../fortran  -I..     -I../libsrc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT tst_misc.o -MD -MP -MF $depbase.Tpo -c -o tst_misc.o tst_misc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool --tag=CC   --mode=link cc  -g -O2 -L../libsrc  -o tst_misc tst_misc.o -lm   ../libsrc/libnetcdf.la 
+libtool: link: cc -g -O2 -o tst_misc tst_misc.o  -L/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc -lm ../libsrc/.libs/libnetcdf.a
+depbase=`echo tst_norm.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+cc -DHAVE_CONFIG_H -I. -I.. -I../fortran  -I..     -I../libsrc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT tst_norm.o -MD -MP -MF $depbase.Tpo -c -o tst_norm.o tst_norm.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool --tag=CC   --mode=link cc  -g -O2 -L../libsrc  -o tst_norm tst_norm.o -lm   ../libsrc/libnetcdf.la 
+libtool: link: cc -g -O2 -o tst_norm tst_norm.o  -L/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc -lm ../libsrc/.libs/libnetcdf.a
+depbase=`echo tst_names.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+cc -DHAVE_CONFIG_H -I. -I.. -I../fortran  -I..     -I../libsrc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2  -g -O2 -MT tst_names.o -MD -MP -MF $depbase.Tpo -c -o tst_names.o tst_names.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool --tag=CC   --mode=link cc  -g -O2 -L../libsrc  -o tst_names tst_names.o -lm   ../libsrc/libnetcdf.la 
+libtool: link: cc -g -O2 -o tst_names tst_names.o  -L/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc -lm ../libsrc/.libs/libnetcdf.a
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/nc_test'
+make  check-TESTS
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/nc_test'
+
+*** Testing small files.
+Switching to 64-bit offset format.
+*** testing simple small file with a global attribute...ok.
+*** testing simple small file with fixed dimensions...ok.
+*** testing simple small file with an unlimited dimension...ok.
+*** testing small file with one variable...ok.
+*** testing small file with one variable and one att...ok.
+*** testing small file with one record variable, which grows...ok.
+*** testing small file with one growing record variable, with attributes added...ok.
+*** testing small file with two growing record variables, with attributes added...ok.
+Switching to netCDF classic format.
+*** testing simple small file with a global attribute...ok.
+*** testing simple small file with fixed dimensions...ok.
+*** testing simple small file with an unlimited dimension...ok.
+*** testing small file with one variable...ok.
+*** testing small file with one variable and one att...ok.
+*** testing small file with one record variable, which grows...ok.
+*** testing small file with one growing record variable, with attributes added...ok.
+*** testing small file with two growing record variables, with attributes added...ok.
+*** Tests successful!
+PASS: tst_small
+Testing 2 different netCDF formats.
+
+
+Switching to netCDF classic format.
+*** Testing nc_strerror ... ok
+*** Testing nc_open ... ok
+*** Testing nc_close ... ok
+*** Testing nc_inq ... ok
+*** Testing nc_inq_dimid ... ok
+*** Testing nc_inq_dim ... ok
+*** Testing nc_inq_dimlen ... ok
+*** Testing nc_inq_dimname ... ok
+*** Testing nc_inq_varid ... ok
+*** Testing nc_inq_var ... ok
+*** Testing nc_inq_natts ... ok
+*** Testing nc_inq_ndims ... ok
+*** Testing nc_inq_nvars ... ok
+*** Testing nc_inq_unlimdim ... ok
+*** Testing nc_inq_vardimid ... ok
+*** Testing nc_inq_varname ... ok
+*** Testing nc_inq_varnatts ... ok
+*** Testing nc_inq_varndims ... ok
+*** Testing nc_inq_vartype ... ok
+*** Testing nc_get_var_text ...  179 good comparisons. ok
+*** Testing nc_get_var_uchar ...  264 good comparisons. ok
+*** Testing nc_get_var_schar ...  269 good comparisons. ok
+*** Testing nc_get_var_short ...  682 good comparisons. ok
+*** Testing nc_get_var_int ...  1189 good comparisons. ok
+*** Testing nc_get_var_long ...  1189 good comparisons. ok
+*** Testing nc_get_var_float ...  1194 good comparisons. ok
+*** Testing nc_get_var_double ...  1207 good comparisons. ok
+*** Testing nc_get_var1_text ...  179 good comparisons. ok
+*** Testing nc_get_var1_uchar ...  264 good comparisons. ok
+*** Testing nc_get_var1_schar ...  269 good comparisons. ok
+*** Testing nc_get_var1_short ...  682 good comparisons. ok
+*** Testing nc_get_var1_int ...  1189 good comparisons. ok
+*** Testing nc_get_var1_long ...  1189 good comparisons. ok
+*** Testing nc_get_var1_float ...  1194 good comparisons. ok
+*** Testing nc_get_var1_double ...  1207 good comparisons. ok
+*** Testing nc_get_var1 ...  1386 good comparisons. ok
+*** Testing nc_get_vara_text ...  179 good comparisons. ok
+*** Testing nc_get_vara_uchar ...  264 good comparisons. ok
+*** Testing nc_get_vara_schar ...  269 good comparisons. ok
+*** Testing nc_get_vara_short ...  682 good comparisons. ok
+*** Testing nc_get_vara_int ...  1189 good comparisons. ok
+*** Testing nc_get_vara_long ...  1189 good comparisons. ok
+*** Testing nc_get_vara_float ...  1194 good comparisons. ok
+*** Testing nc_get_vara_double ...  1207 good comparisons. ok
+*** Testing nc_get_vara ...  1386 good comparisons. ok
+*** Testing nc_get_vars_text ...  179 good comparisons. ok
+*** Testing nc_get_vars_uchar ...  264 good comparisons. ok
+*** Testing nc_get_vars_schar ...  269 good comparisons. ok
+*** Testing nc_get_vars_short ...  682 good comparisons. ok
+*** Testing nc_get_vars_int ...  1189 good comparisons. ok
+*** Testing nc_get_vars_long ...  1189 good comparisons. ok
+*** Testing nc_get_vars_float ...  1194 good comparisons. ok
+*** Testing nc_get_vars_double ...  1207 good comparisons. ok
+*** Testing nc_get_vars ...  1386 good comparisons. ok
+*** Testing nc_get_varm_text ...  179 good comparisons. ok
+*** Testing nc_get_varm_uchar ...  264 good comparisons. ok
+*** Testing nc_get_varm_schar ...  269 good comparisons. ok
+*** Testing nc_get_varm_short ...  682 good comparisons. ok
+*** Testing nc_get_varm_int ...  1189 good comparisons. ok
+*** Testing nc_get_varm_long ...  1189 good comparisons. ok
+*** Testing nc_get_varm_float ...  1194 good comparisons. ok
+*** Testing nc_get_varm_double ...  1207 good comparisons. ok
+*** Testing nc_get_varm ...  1386 good comparisons. ok
+*** Testing nc_get_att_text ...  7 good comparisons. ok
+*** Testing nc_get_att_uchar ...  5 good comparisons. ok
+*** Testing nc_get_att_schar ...  7 good comparisons. ok
+*** Testing nc_get_att_short ...  15 good comparisons. ok
+*** Testing nc_get_att_int ...  19 good comparisons. ok
+*** Testing nc_get_att_long ...  19 good comparisons. ok
+*** Testing nc_get_att_float ...  21 good comparisons. ok
+*** Testing nc_get_att_double ...  27 good comparisons. ok
+*** Testing nc_get_att ...  34 good comparisons. ok
+*** Testing nc_inq_att ... ok
+*** Testing nc_inq_attname ... ok
+*** Testing nc_inq_attid ... ok
+*** Testing nc_inq_attlen ... ok
+*** Testing nc_inq_atttype ... ok
+*** Testing nc_create ... ok
+*** Testing nc_redef ...  1386 good comparisons.  34 good comparisons.  1386 good comparisons.  34 good comparisons. ok
+*** Testing nc_sync ...  34 good comparisons.  1386 good comparisons. ok
+*** Testing nc_abort ...  1386 good comparisons.  34 good comparisons. ok
+*** Testing nc_def_dim ... ok
+*** Testing nc_rename_dim ... ok
+*** Testing nc_def_var ... ok
+*** Testing nc_put_var_text ...  179 good comparisons. ok
+*** Testing nc_put_var_uchar ...  264 good comparisons. ok
+*** Testing nc_put_var_schar ...  269 good comparisons. ok
+*** Testing nc_put_var_short ...  682 good comparisons. ok
+*** Testing nc_put_var_int ...  1189 good comparisons. ok
+*** Testing nc_put_var_long ...  1189 good comparisons. ok
+*** Testing nc_put_var_float ...  1194 good comparisons. ok
+*** Testing nc_put_var_double ...  1207 good comparisons. ok
+*** Testing nc_put_var1_text ...  179 good comparisons. ok
+*** Testing nc_put_var1_uchar ...  264 good comparisons. ok
+*** Testing nc_put_var1_schar ...  269 good comparisons. ok
+*** Testing nc_put_var1_short ...  682 good comparisons. ok
+*** Testing nc_put_var1_int ...  1189 good comparisons. ok
+*** Testing nc_put_var1_long ...  1189 good comparisons. ok
+*** Testing nc_put_var1_float ...  1194 good comparisons. ok
+*** Testing nc_put_var1_double ...  1207 good comparisons. ok
+*** Testing nc_put_var1 ...  1386 good comparisons. ok
+*** Testing nc_put_vara_text ...  179 good comparisons. ok
+*** Testing nc_put_vara_uchar ...  264 good comparisons. ok
+*** Testing nc_put_vara_schar ...  269 good comparisons. ok
+*** Testing nc_put_vara_short ...  682 good comparisons. ok
+*** Testing nc_put_vara_int ...  1189 good comparisons. ok
+*** Testing nc_put_vara_long ...  1189 good comparisons. ok
+*** Testing nc_put_vara_float ...  1194 good comparisons. ok
+*** Testing nc_put_vara_double ...  1207 good comparisons. ok
+*** Testing nc_put_vara ...  1386 good comparisons. ok
+*** Testing nc_put_vars_text ...  179 good comparisons. ok
+*** Testing nc_put_vars_uchar ...  264 good comparisons. ok
+*** Testing nc_put_vars_schar ...  269 good comparisons. ok
+*** Testing nc_put_vars_short ...  682 good comparisons. ok
+*** Testing nc_put_vars_int ...  1189 good comparisons. ok
+*** Testing nc_put_vars_long ...  1189 good comparisons. ok
+*** Testing nc_put_vars_float ...  1194 good comparisons. ok
+*** Testing nc_put_vars_double ...  1207 good comparisons. ok
+*** Testing nc_put_vars ...  1386 good comparisons. ok
+*** Testing nc_put_varm_text ...  179 good comparisons. ok
+*** Testing nc_put_varm_uchar ...  264 good comparisons. ok
+*** Testing nc_put_varm_schar ...  269 good comparisons. ok
+*** Testing nc_put_varm_short ...  682 good comparisons. ok
+*** Testing nc_put_varm_int ...  1189 good comparisons. ok
+*** Testing nc_put_varm_long ...  1189 good comparisons. ok
+*** Testing nc_put_varm_float ...  1194 good comparisons. ok
+*** Testing nc_put_varm_double ...  1207 good comparisons. ok
+*** Testing nc_put_varm ...  1386 good comparisons. ok
+*** Testing nc_rename_var ...  1386 good comparisons. ok
+*** Testing nc_put_att_text ...  7 good comparisons. ok
+*** Testing nc_put_att_uchar ...  5 good comparisons. ok
+*** Testing nc_put_att_schar ...  7 good comparisons. ok
+*** Testing nc_put_att_short ...  15 good comparisons. ok
+*** Testing nc_put_att_int ...  19 good comparisons. ok
+*** Testing nc_put_att_long ...  19 good comparisons. ok
+*** Testing nc_put_att_float ...  21 good comparisons. ok
+*** Testing nc_put_att_double ...  27 good comparisons. ok
+*** Testing nc_put_att ...  34 good comparisons. ok
+*** Testing nc_copy_att ...  34 good comparisons. ok
+*** Testing nc_rename_att ...  34 good comparisons. ok
+*** Testing nc_del_att ... ok
+*** Testing nc_set_default_format ... ok
+
+
+Switching to 64-bit offset format.
+*** Testing nc_strerror ... ok
+*** Testing nc_open ... ok
+*** Testing nc_close ... ok
+*** Testing nc_inq ... ok
+*** Testing nc_inq_dimid ... ok
+*** Testing nc_inq_dim ... ok
+*** Testing nc_inq_dimlen ... ok
+*** Testing nc_inq_dimname ... ok
+*** Testing nc_inq_varid ... ok
+*** Testing nc_inq_var ... ok
+*** Testing nc_inq_natts ... ok
+*** Testing nc_inq_ndims ... ok
+*** Testing nc_inq_nvars ... ok
+*** Testing nc_inq_unlimdim ... ok
+*** Testing nc_inq_vardimid ... ok
+*** Testing nc_inq_varname ... ok
+*** Testing nc_inq_varnatts ... ok
+*** Testing nc_inq_varndims ... ok
+*** Testing nc_inq_vartype ... ok
+*** Testing nc_get_var_text ...  179 good comparisons. ok
+*** Testing nc_get_var_uchar ...  264 good comparisons. ok
+*** Testing nc_get_var_schar ...  269 good comparisons. ok
+*** Testing nc_get_var_short ...  682 good comparisons. ok
+*** Testing nc_get_var_int ...  1189 good comparisons. ok
+*** Testing nc_get_var_long ...  1189 good comparisons. ok
+*** Testing nc_get_var_float ...  1194 good comparisons. ok
+*** Testing nc_get_var_double ...  1207 good comparisons. ok
+*** Testing nc_get_var1_text ...  179 good comparisons. ok
+*** Testing nc_get_var1_uchar ...  264 good comparisons. ok
+*** Testing nc_get_var1_schar ...  269 good comparisons. ok
+*** Testing nc_get_var1_short ...  682 good comparisons. ok
+*** Testing nc_get_var1_int ...  1189 good comparisons. ok
+*** Testing nc_get_var1_long ...  1189 good comparisons. ok
+*** Testing nc_get_var1_float ...  1194 good comparisons. ok
+*** Testing nc_get_var1_double ...  1207 good comparisons. ok
+*** Testing nc_get_var1 ...  1386 good comparisons. ok
+*** Testing nc_get_vara_text ...  179 good comparisons. ok
+*** Testing nc_get_vara_uchar ...  264 good comparisons. ok
+*** Testing nc_get_vara_schar ...  269 good comparisons. ok
+*** Testing nc_get_vara_short ...  682 good comparisons. ok
+*** Testing nc_get_vara_int ...  1189 good comparisons. ok
+*** Testing nc_get_vara_long ...  1189 good comparisons. ok
+*** Testing nc_get_vara_float ...  1194 good comparisons. ok
+*** Testing nc_get_vara_double ...  1207 good comparisons. ok
+*** Testing nc_get_vara ...  1386 good comparisons. ok
+*** Testing nc_get_vars_text ...  179 good comparisons. ok
+*** Testing nc_get_vars_uchar ...  264 good comparisons. ok
+*** Testing nc_get_vars_schar ...  269 good comparisons. ok
+*** Testing nc_get_vars_short ...  682 good comparisons. ok
+*** Testing nc_get_vars_int ...  1189 good comparisons. ok
+*** Testing nc_get_vars_long ...  1189 good comparisons. ok
+*** Testing nc_get_vars_float ...  1194 good comparisons. ok
+*** Testing nc_get_vars_double ...  1207 good comparisons. ok
+*** Testing nc_get_vars ...  1386 good comparisons. ok
+*** Testing nc_get_varm_text ...  179 good comparisons. ok
+*** Testing nc_get_varm_uchar ...  264 good comparisons. ok
+*** Testing nc_get_varm_schar ...  269 good comparisons. ok
+*** Testing nc_get_varm_short ...  682 good comparisons. ok
+*** Testing nc_get_varm_int ...  1189 good comparisons. ok
+*** Testing nc_get_varm_long ...  1189 good comparisons. ok
+*** Testing nc_get_varm_float ...  1194 good comparisons. ok
+*** Testing nc_get_varm_double ...  1207 good comparisons. ok
+*** Testing nc_get_varm ...  1386 good comparisons. ok
+*** Testing nc_get_att_text ...  7 good comparisons. ok
+*** Testing nc_get_att_uchar ...  5 good comparisons. ok
+*** Testing nc_get_att_schar ...  7 good comparisons. ok
+*** Testing nc_get_att_short ...  15 good comparisons. ok
+*** Testing nc_get_att_int ...  19 good comparisons. ok
+*** Testing nc_get_att_long ...  19 good comparisons. ok
+*** Testing nc_get_att_float ...  21 good comparisons. ok
+*** Testing nc_get_att_double ...  27 good comparisons. ok
+*** Testing nc_get_att ...  34 good comparisons. ok
+*** Testing nc_inq_att ... ok
+*** Testing nc_inq_attname ... ok
+*** Testing nc_inq_attid ... ok
+*** Testing nc_inq_attlen ... ok
+*** Testing nc_inq_atttype ... ok
+*** Testing nc_create ... ok
+*** Testing nc_redef ...  1386 good comparisons.  34 good comparisons.  1386 good comparisons.  34 good comparisons. ok
+*** Testing nc_sync ...  34 good comparisons.  1386 good comparisons. ok
+*** Testing nc_abort ...  1386 good comparisons.  34 good comparisons. ok
+*** Testing nc_def_dim ... ok
+*** Testing nc_rename_dim ... ok
+*** Testing nc_def_var ... ok
+*** Testing nc_put_var_text ...  179 good comparisons. ok
+*** Testing nc_put_var_uchar ...  264 good comparisons. ok
+*** Testing nc_put_var_schar ...  269 good comparisons. ok
+*** Testing nc_put_var_short ...  682 good comparisons. ok
+*** Testing nc_put_var_int ...  1189 good comparisons. ok
+*** Testing nc_put_var_long ...  1189 good comparisons. ok
+*** Testing nc_put_var_float ...  1194 good comparisons. ok
+*** Testing nc_put_var_double ...  1207 good comparisons. ok
+*** Testing nc_put_var1_text ...  179 good comparisons. ok
+*** Testing nc_put_var1_uchar ...  264 good comparisons. ok
+*** Testing nc_put_var1_schar ...  269 good comparisons. ok
+*** Testing nc_put_var1_short ...  682 good comparisons. ok
+*** Testing nc_put_var1_int ...  1189 good comparisons. ok
+*** Testing nc_put_var1_long ...  1189 good comparisons. ok
+*** Testing nc_put_var1_float ...  1194 good comparisons. ok
+*** Testing nc_put_var1_double ...  1207 good comparisons. ok
+*** Testing nc_put_var1 ...  1386 good comparisons. ok
+*** Testing nc_put_vara_text ...  179 good comparisons. ok
+*** Testing nc_put_vara_uchar ...  264 good comparisons. ok
+*** Testing nc_put_vara_schar ...  269 good comparisons. ok
+*** Testing nc_put_vara_short ...  682 good comparisons. ok
+*** Testing nc_put_vara_int ...  1189 good comparisons. ok
+*** Testing nc_put_vara_long ...  1189 good comparisons. ok
+*** Testing nc_put_vara_float ...  1194 good comparisons. ok
+*** Testing nc_put_vara_double ...  1207 good comparisons. ok
+*** Testing nc_put_vara ...  1386 good comparisons. ok
+*** Testing nc_put_vars_text ...  179 good comparisons. ok
+*** Testing nc_put_vars_uchar ...  264 good comparisons. ok
+*** Testing nc_put_vars_schar ...  269 good comparisons. ok
+*** Testing nc_put_vars_short ...  682 good comparisons. ok
+*** Testing nc_put_vars_int ...  1189 good comparisons. ok
+*** Testing nc_put_vars_long ...  1189 good comparisons. ok
+*** Testing nc_put_vars_float ...  1194 good comparisons. ok
+*** Testing nc_put_vars_double ...  1207 good comparisons. ok
+*** Testing nc_put_vars ...  1386 good comparisons. ok
+*** Testing nc_put_varm_text ...  179 good comparisons. ok
+*** Testing nc_put_varm_uchar ...  264 good comparisons. ok
+*** Testing nc_put_varm_schar ...  269 good comparisons. ok
+*** Testing nc_put_varm_short ...  682 good comparisons. ok
+*** Testing nc_put_varm_int ...  1189 good comparisons. ok
+*** Testing nc_put_varm_long ...  1189 good comparisons. ok
+*** Testing nc_put_varm_float ...  1194 good comparisons. ok
+*** Testing nc_put_varm_double ...  1207 good comparisons. ok
+*** Testing nc_put_varm ...  1386 good comparisons. ok
+*** Testing nc_rename_var ...  1386 good comparisons. ok
+*** Testing nc_put_att_text ...  7 good comparisons. ok
+*** Testing nc_put_att_uchar ...  5 good comparisons. ok
+*** Testing nc_put_att_schar ...  7 good comparisons. ok
+*** Testing nc_put_att_short ...  15 good comparisons. ok
+*** Testing nc_put_att_int ...  19 good comparisons. ok
+*** Testing nc_put_att_long ...  19 good comparisons. ok
+*** Testing nc_put_att_float ...  21 good comparisons. ok
+*** Testing nc_put_att_double ...  27 good comparisons. ok
+*** Testing nc_put_att ...  34 good comparisons. ok
+*** Testing nc_copy_att ...  34 good comparisons. ok
+*** Testing nc_rename_att ...  34 good comparisons. ok
+*** Testing nc_del_att ... ok
+*** Testing nc_set_default_format ... ok
+
+*** Total number of failures: 0
+*** nc_test SUCCESS!!!
+PASS: nc_test
+
+*** Testing some extra stuff.
+*** Trying to open non-netCDF files of tiny length...ok.
+*** Tests successful!
+PASS: tst_misc
+
+*** testing UTF-8 normalization...ok.
+*** Tests successful!
+PASS: tst_norm
+
+*** testing names with file tst_names.nc...
+*** switching to netCDF classic format...ok.
+*** switching to netCDF 64-bit offset format...ok.
+*** Tests successful!
+PASS: tst_names
+==================
+All 5 tests passed
+==================
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/nc_test'
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/nc_test'
+Making check in man
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/man'
+Updating ./version.texi
+Updating ./version-install.texi
+Updating ./version-c.texi
+Updating ./version-tutorial.texi
+Updating ./version-f77.texi
+Updating ./version-f90.texi
+Updating ./version-cxx.texi
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/man'
+Making check in win32
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32'
+Making check in NET
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET'
+Making check in examples
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/examples'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/examples'
+Making check in libsrc
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/libsrc'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/libsrc'
+Making check in ncdump
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/ncdump'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/ncdump'
+Making check in ncgen
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/ncgen'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/ncgen'
+Making check in nctest
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/nctest'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/nctest'
+Making check in nc_test
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/nc_test'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/nc_test'
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET'
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET'
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32'
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32'
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3'
+cd . && /bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run autoheader
+aclocal.m4:14: error: this file was generated for autoconf 2.62.
+You have another version of autoconf.  If you want to use that,
+you should regenerate the build system entirely.
+aclocal.m4:14: the top level
+autom4te: /usr/bin/m4 failed with exit status: 63
+autoheader: '/usr/bin/autom4te' failed with exit status: 63
+WARNING: `autoheader' is probably too old.  You should only need it if
+         you modified `acconfig.h' or `configure.ac'.  You might want
+         to install the `Autoconf' and `GNU m4' packages.  Grab them
+         from any GNU archive site.
+rm -f stamp-h1
+touch config.h.in
+cd . && /bin/sh ./config.status config.h
+config.status: creating config.h
+config.status: config.h is unchanged
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3'
+Making install in libsrc
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc'
+make  install-am
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc'
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc'
+test -z "/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib" || /usr/bin/mkdir -p "/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib"
+ /bin/sh ../libtool --mode=install /usr/bin/install -c  'libnetcdf.la' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libnetcdf.la'
+libtool: install: /usr/bin/install -c .libs/libnetcdf.lai /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libnetcdf.la
+libtool: install: /usr/bin/install -c .libs/libnetcdf.a /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libnetcdf.a
+libtool: install: chmod 644 /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libnetcdf.a
+libtool: install: ranlib /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libnetcdf.a
+libtool: finish: PATH="/apps/ops/prod/libs/intel/19.1.3.304/wgrib2/2.0.8/bin:/apps/spack/libpng/1.6.37/intel/19.1.3.304/4ohkronuhlyherusoszzrmur5ewvlwzh/bin:/apps/spack/jasper/2.0.25/intel/19.1.3.304/sjib74krrorkyczqpqah4tvewmlnqdx4/bin:/pe/intel/compilers_and_libraries_2020.4.304/linux/bin/intel64:/pe/intel/compilers_and_libraries_2020.4.304/linux/bin:/pe/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/bin:/pe/intel/debugger_2020/gdb/intel64/bin:/opt/cray/pe/craype/2.7.8/bin:/opt/cray/libfabric/1.11.0.4.75/bin:/opt/clmgr/sbin:/opt/clmgr/bin:/opt/sgi/sbin:/opt/sgi/bin:/usr/local/bin:/usr/bin:/bin:/usr/lib/mit/bin:/usr/lib/mit/sbin:/opt/pbs/bin:/sbin:/u/Jun.Du/bin:/lfs/h2/emc/lam/noscrub/Jun.Du/dbrowse:/usrx/local/emc_rocoto/1.2.3/bin:/opt/cray/pe/bin:/sbin" ldconfig -n /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include" || /usr/bin/mkdir -p "/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include"
+ /usr/bin/install -c -m 644 'netcdf.h' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include/netcdf.h'
+test -z "/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/man/man3" || /usr/bin/mkdir -p "/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/man/man3"
+ /usr/bin/install -c -m 644 './netcdf.3' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/man/man3/netcdf.3'
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc'
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc'
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/libsrc'
+Making install in nc_test
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/nc_test'
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/nc_test'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/nc_test'
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/nc_test'
+Making install in man
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/man'
+restore=: && backupdir=".am$$" && \
+am__cwd=`pwd` && cd . && \
+rm -rf $backupdir && mkdir $backupdir && \
+if (/bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run makeinfo --version) >/dev/null 2>&1; then \
+  for f in netcdf.info netcdf.info-[0-9] netcdf.info-[0-9][0-9] netcdf.i[0-9] netcdf.i[0-9][0-9]; do \
+    if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+  done; \
+else :; fi && \
+cd "$am__cwd"; \
+if /bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run makeinfo   -I . \
+ -o netcdf.info netcdf.texi; \
+then \
+  rc=0; \
+  cd .; \
+else \
+  rc=$?; \
+  cd . && \
+  $restore $backupdir/* `echo "./netcdf.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing: line 54: makeinfo: command not found
+WARNING: `makeinfo' is missing on your system.  You should only need it if
+         you modified a `.texi' or `.texinfo' file, or any other file
+         indirectly affecting the aspect of the manual.  The spurious
+         call might also be the consequence of using a buggy `make' (AIX,
+         DU, IRIX).  You might want to install the `Texinfo' package or
+         the `GNU make' package.  Grab either from any GNU archive site.
+restore=: && backupdir=".am$$" && \
+am__cwd=`pwd` && cd . && \
+rm -rf $backupdir && mkdir $backupdir && \
+if (/bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run makeinfo --version) >/dev/null 2>&1; then \
+  for f in netcdf-install.info netcdf-install.info-[0-9] netcdf-install.info-[0-9][0-9] netcdf-install.i[0-9] netcdf-install.i[0-9][0-9]; do \
+    if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+  done; \
+else :; fi && \
+cd "$am__cwd"; \
+if /bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run makeinfo   -I . \
+ -o netcdf-install.info netcdf-install.texi; \
+then \
+  rc=0; \
+  cd .; \
+else \
+  rc=$?; \
+  cd . && \
+  $restore $backupdir/* `echo "./netcdf-install.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing: line 54: makeinfo: command not found
+WARNING: `makeinfo' is missing on your system.  You should only need it if
+         you modified a `.texi' or `.texinfo' file, or any other file
+         indirectly affecting the aspect of the manual.  The spurious
+         call might also be the consequence of using a buggy `make' (AIX,
+         DU, IRIX).  You might want to install the `Texinfo' package or
+         the `GNU make' package.  Grab either from any GNU archive site.
+restore=: && backupdir=".am$$" && \
+am__cwd=`pwd` && cd . && \
+rm -rf $backupdir && mkdir $backupdir && \
+if (/bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run makeinfo --version) >/dev/null 2>&1; then \
+  for f in netcdf-c.info netcdf-c.info-[0-9] netcdf-c.info-[0-9][0-9] netcdf-c.i[0-9] netcdf-c.i[0-9][0-9]; do \
+    if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+  done; \
+else :; fi && \
+cd "$am__cwd"; \
+if /bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run makeinfo   -I . \
+ -o netcdf-c.info netcdf-c.texi; \
+then \
+  rc=0; \
+  cd .; \
+else \
+  rc=$?; \
+  cd . && \
+  $restore $backupdir/* `echo "./netcdf-c.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing: line 54: makeinfo: command not found
+WARNING: `makeinfo' is missing on your system.  You should only need it if
+         you modified a `.texi' or `.texinfo' file, or any other file
+         indirectly affecting the aspect of the manual.  The spurious
+         call might also be the consequence of using a buggy `make' (AIX,
+         DU, IRIX).  You might want to install the `Texinfo' package or
+         the `GNU make' package.  Grab either from any GNU archive site.
+restore=: && backupdir=".am$$" && \
+am__cwd=`pwd` && cd . && \
+rm -rf $backupdir && mkdir $backupdir && \
+if (/bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run makeinfo --version) >/dev/null 2>&1; then \
+  for f in netcdf-tutorial.info netcdf-tutorial.info-[0-9] netcdf-tutorial.info-[0-9][0-9] netcdf-tutorial.i[0-9] netcdf-tutorial.i[0-9][0-9]; do \
+    if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+  done; \
+else :; fi && \
+cd "$am__cwd"; \
+if /bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run makeinfo   -I . \
+ -o netcdf-tutorial.info netcdf-tutorial.texi; \
+then \
+  rc=0; \
+  cd .; \
+else \
+  rc=$?; \
+  cd . && \
+  $restore $backupdir/* `echo "./netcdf-tutorial.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing: line 54: makeinfo: command not found
+WARNING: `makeinfo' is missing on your system.  You should only need it if
+         you modified a `.texi' or `.texinfo' file, or any other file
+         indirectly affecting the aspect of the manual.  The spurious
+         call might also be the consequence of using a buggy `make' (AIX,
+         DU, IRIX).  You might want to install the `Texinfo' package or
+         the `GNU make' package.  Grab either from any GNU archive site.
+restore=: && backupdir=".am$$" && \
+am__cwd=`pwd` && cd . && \
+rm -rf $backupdir && mkdir $backupdir && \
+if (/bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run makeinfo --version) >/dev/null 2>&1; then \
+  for f in netcdf-f77.info netcdf-f77.info-[0-9] netcdf-f77.info-[0-9][0-9] netcdf-f77.i[0-9] netcdf-f77.i[0-9][0-9]; do \
+    if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+  done; \
+else :; fi && \
+cd "$am__cwd"; \
+if /bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run makeinfo   -I . \
+ -o netcdf-f77.info netcdf-f77.texi; \
+then \
+  rc=0; \
+  cd .; \
+else \
+  rc=$?; \
+  cd . && \
+  $restore $backupdir/* `echo "./netcdf-f77.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing: line 54: makeinfo: command not found
+WARNING: `makeinfo' is missing on your system.  You should only need it if
+         you modified a `.texi' or `.texinfo' file, or any other file
+         indirectly affecting the aspect of the manual.  The spurious
+         call might also be the consequence of using a buggy `make' (AIX,
+         DU, IRIX).  You might want to install the `Texinfo' package or
+         the `GNU make' package.  Grab either from any GNU archive site.
+restore=: && backupdir=".am$$" && \
+am__cwd=`pwd` && cd . && \
+rm -rf $backupdir && mkdir $backupdir && \
+if (/bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run makeinfo --version) >/dev/null 2>&1; then \
+  for f in netcdf-f90.info netcdf-f90.info-[0-9] netcdf-f90.info-[0-9][0-9] netcdf-f90.i[0-9] netcdf-f90.i[0-9][0-9]; do \
+    if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+  done; \
+else :; fi && \
+cd "$am__cwd"; \
+if /bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run makeinfo   -I . \
+ -o netcdf-f90.info netcdf-f90.texi; \
+then \
+  rc=0; \
+  cd .; \
+else \
+  rc=$?; \
+  cd . && \
+  $restore $backupdir/* `echo "./netcdf-f90.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing: line 54: makeinfo: command not found
+WARNING: `makeinfo' is missing on your system.  You should only need it if
+         you modified a `.texi' or `.texinfo' file, or any other file
+         indirectly affecting the aspect of the manual.  The spurious
+         call might also be the consequence of using a buggy `make' (AIX,
+         DU, IRIX).  You might want to install the `Texinfo' package or
+         the `GNU make' package.  Grab either from any GNU archive site.
+restore=: && backupdir=".am$$" && \
+am__cwd=`pwd` && cd . && \
+rm -rf $backupdir && mkdir $backupdir && \
+if (/bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run makeinfo --version) >/dev/null 2>&1; then \
+  for f in netcdf-cxx.info netcdf-cxx.info-[0-9] netcdf-cxx.info-[0-9][0-9] netcdf-cxx.i[0-9] netcdf-cxx.i[0-9][0-9]; do \
+    if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+  done; \
+else :; fi && \
+cd "$am__cwd"; \
+if /bin/sh /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing --run makeinfo   -I . \
+ -o netcdf-cxx.info netcdf-cxx.texi; \
+then \
+  rc=0; \
+  cd .; \
+else \
+  rc=$?; \
+  cd . && \
+  $restore $backupdir/* `echo "./netcdf-cxx.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/missing: line 54: makeinfo: command not found
+WARNING: `makeinfo' is missing on your system.  You should only need it if
+         you modified a `.texi' or `.texinfo' file, or any other file
+         indirectly affecting the aspect of the manual.  The spurious
+         call might also be the consequence of using a buggy `make' (AIX,
+         DU, IRIX).  You might want to install the `Texinfo' package or
+         the `GNU make' package.  Grab either from any GNU archive site.
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/man'
+make[3]: Nothing to be done for 'install-exec-am'.
+test -z "/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/doc/netcdf" || /usr/bin/mkdir -p "/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/doc/netcdf"
+test -z "/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info" || /usr/bin/mkdir -p "/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info"
+ /usr/bin/install -c -m 644 './netcdf.info' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info/netcdf.info'
+ /usr/bin/install -c -m 644 './netcdf-install.info' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info/netcdf-install.info'
+ /usr/bin/install -c -m 644 './netcdf-c.info' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info/netcdf-c.info'
+ /usr/bin/install -c -m 644 './netcdf-tutorial.info' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info/netcdf-tutorial.info'
+ /usr/bin/install -c -m 644 './netcdf-f77.info' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info/netcdf-f77.info'
+ /usr/bin/install -c -m 644 './netcdf-f90.info' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info/netcdf-f90.info'
+ /usr/bin/install -c -m 644 './netcdf-cxx.info' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info/netcdf-cxx.info'
+ install-info --info-dir='/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info/netcdf.info'
+ install-info --info-dir='/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info/netcdf-install.info'
+ install-info --info-dir='/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info/netcdf-c.info'
+ install-info --info-dir='/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info/netcdf-tutorial.info'
+ install-info --info-dir='/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info/netcdf-f77.info'
+ install-info --info-dir='/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info/netcdf-f90.info'
+ install-info --info-dir='/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info' '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/info/netcdf-cxx.info'
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/man'
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/man'
+Making install in win32
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32'
+Making install in NET
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET'
+Making install in examples
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/examples'
+make[5]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/examples'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/examples'
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/examples'
+Making install in libsrc
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/libsrc'
+make[5]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/libsrc'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/libsrc'
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/libsrc'
+Making install in ncdump
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/ncdump'
+make[5]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/ncdump'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/ncdump'
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/ncdump'
+Making install in ncgen
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/ncgen'
+make[5]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/ncgen'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/ncgen'
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/ncgen'
+Making install in nctest
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/nctest'
+make[5]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/nctest'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/nctest'
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/nctest'
+Making install in nc_test
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/nc_test'
+make[5]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/nc_test'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/nc_test'
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET/nc_test'
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET'
+make[5]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET'
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET'
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32/NET'
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32'
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32'
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32'
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3/win32'
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3'
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3'
+make[3]: Nothing to be done for 'install-exec-am'.
+make  install-data-hook
+make[4]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3'
+
++-------------------------------------------------------------+
+| Congratulations! You have successfully installed netCDF!    |
+|                                                             |
+| CAUTION:                                                    |
+|                                                             |
+| If you have not already run "make check", then we strongly  |
+| recommend you do so. It does not take very long.            |
+|                                                             |
+| Before using netCDF to store important data, test your      |
+| build with "make check".                                    |
+|                                                             |
+| NetCDF is tested nightly on many platforms at Unidata       |
+| but your platform is probably different in some ways.       |
+|                                                             |
+| If any tests fail, please see the netCDF web site:          |
+| http://www.unidata.ucar.edu/software/netcdf/                |
+|                                                             |
+| NetCDF is developed and maintained at the Unidata Program   |
+| Center. Unidata provides a broad array of data and software |
+| tools for use in geoscience education and research.         |
+| http://www.unidata.ucar.edu                                 |
++-------------------------------------------------------------+
+
+make[4]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3'
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3'
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3'
+make[1]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/netcdf-3.6.3'
+cd /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/zlib-1.2.11 && export CFLAGS="-I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include " && ./configure --prefix=/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2 --static && make install
+Building static library libz.a version 1.2.11 with cc.
+Checking for size_t... Yes.
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+Checking for strerror... Yes.
+Checking for unistd.h... Yes.
+Checking for stdarg.h... Yes.
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+Checking for vsnprintf() in stdio.h... Yes.
+Checking for return value of vsnprintf()... Yes.
+Checking for attribute(visibility) support... Yes.
+make[1]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/zlib-1.2.11'
+cc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include  -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o adler32.o adler32.c
+cc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include  -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o crc32.o crc32.c
+cc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include  -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o deflate.o deflate.c
+cc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include  -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o infback.o infback.c
+cc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include  -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o inffast.o inffast.c
+cc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include  -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o inflate.o inflate.c
+cc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include  -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o inftrees.o inftrees.c
+cc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include  -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o trees.o trees.c
+cc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include  -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o zutil.o zutil.c
+cc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include  -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o compress.o compress.c
+cc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include  -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o uncompr.o uncompr.c
+cc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include  -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o gzclose.o gzclose.c
+cc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include  -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o gzlib.o gzlib.c
+cc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include  -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o gzread.o gzread.c
+cc -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include  -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o gzwrite.o gzwrite.c
+ar rc libz.a adler32.o crc32.o deflate.o infback.o inffast.o inflate.o inftrees.o trees.o zutil.o compress.o uncompr.o gzclose.o gzlib.o gzread.o gzwrite.o 
+rm -f /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libz.a
+cp libz.a /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib
+chmod 644 /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libz.a
+rm -f /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/man/man3/zlib.3
+cp zlib.3 /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/man/man3
+chmod 644 /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/man/man3/zlib.3
+rm -f /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/pkgconfig/zlib.pc
+cp zlib.pc /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/pkgconfig
+chmod 644 /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/pkgconfig/zlib.pc
+rm -f /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include/zlib.h /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include/zconf.h
+cp zlib.h zconf.h /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include
+chmod 644 /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include/zlib.h /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include/zconf.h
+make[1]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/zlib-1.2.11'
+export LDFLAGS="-L/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib" && cd "/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libpng-1.2.57" && export CFLAGS="-DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include" && ./configure --disable-shared --prefix=/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2 && make check install
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for gcc... cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether cc accepts -g... yes
+checking for cc option to accept ISO C89... none needed
+checking whether cc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of cc... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking how to print strings... printf
+checking for ld used by cc... /usr/x86_64-suse-linux/bin/ld
+checking if the linker (/usr/x86_64-suse-linux/bin/ld) is GNU ld... yes
+checking how to run the C preprocessor... cc -E
+checking for sed... /usr/bin/sed
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 3458764513820540925
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/x86_64-suse-linux/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from cc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if cc supports -fno-rtti -fno-exceptions... yes
+checking for cc option to produce PIC... -fPIC -DPIC
+checking if cc PIC flag -fPIC -DPIC works... yes
+checking if cc static flag -static works... no
+checking if cc supports -c -o file.o... yes
+checking if cc supports -c -o file.o... (cached) yes
+checking whether the cc linker (/usr/x86_64-suse-linux/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for ANSI C header files... (cached) yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for working strtod... yes
+checking for memset... yes
+checking for pow... yes
+checking for zlibVersion in -lz... yes
+checking if assembler code in pnggccrd.c can be compiled without PNG_NO_MMX_CODE... yes
+checking if libraries can be versioned... yes
+checking for symbol prefix... 
+configure: pkgconfig directory is ${libdir}/pkgconfig
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libpng.pc
+config.status: creating libpng-config
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make[1]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libpng-1.2.57'
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-png.lo -MD -MP -MF .deps/libpng12_la-png.Tpo -c -o libpng12_la-png.lo `test -f 'png.c' || echo './'`png.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-png.lo -MD -MP -MF .deps/libpng12_la-png.Tpo -c png.c -o libpng12_la-png.o
+mv -f .deps/libpng12_la-png.Tpo .deps/libpng12_la-png.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngset.lo -MD -MP -MF .deps/libpng12_la-pngset.Tpo -c -o libpng12_la-pngset.lo `test -f 'pngset.c' || echo './'`pngset.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngset.lo -MD -MP -MF .deps/libpng12_la-pngset.Tpo -c pngset.c -o libpng12_la-pngset.o
+mv -f .deps/libpng12_la-pngset.Tpo .deps/libpng12_la-pngset.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngget.lo -MD -MP -MF .deps/libpng12_la-pngget.Tpo -c -o libpng12_la-pngget.lo `test -f 'pngget.c' || echo './'`pngget.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngget.lo -MD -MP -MF .deps/libpng12_la-pngget.Tpo -c pngget.c -o libpng12_la-pngget.o
+mv -f .deps/libpng12_la-pngget.Tpo .deps/libpng12_la-pngget.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngrutil.lo -MD -MP -MF .deps/libpng12_la-pngrutil.Tpo -c -o libpng12_la-pngrutil.lo `test -f 'pngrutil.c' || echo './'`pngrutil.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngrutil.lo -MD -MP -MF .deps/libpng12_la-pngrutil.Tpo -c pngrutil.c -o libpng12_la-pngrutil.o
+mv -f .deps/libpng12_la-pngrutil.Tpo .deps/libpng12_la-pngrutil.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngtrans.lo -MD -MP -MF .deps/libpng12_la-pngtrans.Tpo -c -o libpng12_la-pngtrans.lo `test -f 'pngtrans.c' || echo './'`pngtrans.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngtrans.lo -MD -MP -MF .deps/libpng12_la-pngtrans.Tpo -c pngtrans.c -o libpng12_la-pngtrans.o
+mv -f .deps/libpng12_la-pngtrans.Tpo .deps/libpng12_la-pngtrans.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngwutil.lo -MD -MP -MF .deps/libpng12_la-pngwutil.Tpo -c -o libpng12_la-pngwutil.lo `test -f 'pngwutil.c' || echo './'`pngwutil.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngwutil.lo -MD -MP -MF .deps/libpng12_la-pngwutil.Tpo -c pngwutil.c -o libpng12_la-pngwutil.o
+mv -f .deps/libpng12_la-pngwutil.Tpo .deps/libpng12_la-pngwutil.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngread.lo -MD -MP -MF .deps/libpng12_la-pngread.Tpo -c -o libpng12_la-pngread.lo `test -f 'pngread.c' || echo './'`pngread.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngread.lo -MD -MP -MF .deps/libpng12_la-pngread.Tpo -c pngread.c -o libpng12_la-pngread.o
+mv -f .deps/libpng12_la-pngread.Tpo .deps/libpng12_la-pngread.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngrio.lo -MD -MP -MF .deps/libpng12_la-pngrio.Tpo -c -o libpng12_la-pngrio.lo `test -f 'pngrio.c' || echo './'`pngrio.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngrio.lo -MD -MP -MF .deps/libpng12_la-pngrio.Tpo -c pngrio.c -o libpng12_la-pngrio.o
+mv -f .deps/libpng12_la-pngrio.Tpo .deps/libpng12_la-pngrio.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngwio.lo -MD -MP -MF .deps/libpng12_la-pngwio.Tpo -c -o libpng12_la-pngwio.lo `test -f 'pngwio.c' || echo './'`pngwio.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngwio.lo -MD -MP -MF .deps/libpng12_la-pngwio.Tpo -c pngwio.c -o libpng12_la-pngwio.o
+mv -f .deps/libpng12_la-pngwio.Tpo .deps/libpng12_la-pngwio.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngwrite.lo -MD -MP -MF .deps/libpng12_la-pngwrite.Tpo -c -o libpng12_la-pngwrite.lo `test -f 'pngwrite.c' || echo './'`pngwrite.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngwrite.lo -MD -MP -MF .deps/libpng12_la-pngwrite.Tpo -c pngwrite.c -o libpng12_la-pngwrite.o
+mv -f .deps/libpng12_la-pngwrite.Tpo .deps/libpng12_la-pngwrite.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngrtran.lo -MD -MP -MF .deps/libpng12_la-pngrtran.Tpo -c -o libpng12_la-pngrtran.lo `test -f 'pngrtran.c' || echo './'`pngrtran.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngrtran.lo -MD -MP -MF .deps/libpng12_la-pngrtran.Tpo -c pngrtran.c -o libpng12_la-pngrtran.o
+mv -f .deps/libpng12_la-pngrtran.Tpo .deps/libpng12_la-pngrtran.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngwtran.lo -MD -MP -MF .deps/libpng12_la-pngwtran.Tpo -c -o libpng12_la-pngwtran.lo `test -f 'pngwtran.c' || echo './'`pngwtran.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngwtran.lo -MD -MP -MF .deps/libpng12_la-pngwtran.Tpo -c pngwtran.c -o libpng12_la-pngwtran.o
+mv -f .deps/libpng12_la-pngwtran.Tpo .deps/libpng12_la-pngwtran.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngmem.lo -MD -MP -MF .deps/libpng12_la-pngmem.Tpo -c -o libpng12_la-pngmem.lo `test -f 'pngmem.c' || echo './'`pngmem.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngmem.lo -MD -MP -MF .deps/libpng12_la-pngmem.Tpo -c pngmem.c -o libpng12_la-pngmem.o
+mv -f .deps/libpng12_la-pngmem.Tpo .deps/libpng12_la-pngmem.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngerror.lo -MD -MP -MF .deps/libpng12_la-pngerror.Tpo -c -o libpng12_la-pngerror.lo `test -f 'pngerror.c' || echo './'`pngerror.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngerror.lo -MD -MP -MF .deps/libpng12_la-pngerror.Tpo -c pngerror.c -o libpng12_la-pngerror.o
+mv -f .deps/libpng12_la-pngerror.Tpo .deps/libpng12_la-pngerror.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngpread.lo -MD -MP -MF .deps/libpng12_la-pngpread.Tpo -c -o libpng12_la-pngpread.lo `test -f 'pngpread.c' || echo './'`pngpread.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng12_la-pngpread.lo -MD -MP -MF .deps/libpng12_la-pngpread.Tpo -c pngpread.c -o libpng12_la-pngpread.o
+mv -f .deps/libpng12_la-pngpread.Tpo .deps/libpng12_la-pngpread.Plo
+rm -f libpng.sym libpng.sym.new
+cc -E -DPNG_CONFIGURE_LIBPNG   -DPNG_BUILDSYMS ./png.h | \
+	/usr/bin/sed -n -e \
+	's|^.*PNG_FUNCTION_EXPORT[ 	]*\(['_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789']*\).*$|\1|p' \
+	-e 's|^.*PNG_DATA_EXPORT[ 	]*\(['_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789']*\).*$|\1|p' \
+		>libpng.sym.new
+mv libpng.sym.new libpng.sym
+rm -f libpng.vers libpng.vers.new
+echo PNG12_0 '{global:' > libpng.vers.new
+/usr/bin/sed s/$/\;/ libpng.sym >> libpng.vers.new
+echo 'local: *; };' >> libpng.vers.new
+mv libpng.vers.new libpng.vers
+/bin/sh ./libtool  --tag=CC   --mode=link cc  -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -no-undefined -export-dynamic -version-number 0:57:0 -Wl,--version-script=libpng.vers  -L/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib -o libpng12.la -rpath /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib libpng12_la-png.lo libpng12_la-pngset.lo libpng12_la-pngget.lo libpng12_la-pngrutil.lo libpng12_la-pngtrans.lo libpng12_la-pngwutil.lo libpng12_la-pngread.lo libpng12_la-pngrio.lo libpng12_la-pngwio.lo libpng12_la-pngwrite.lo libpng12_la-pngrtran.lo libpng12_la-pngwtran.lo libpng12_la-pngmem.lo libpng12_la-pngerror.lo libpng12_la-pngpread.lo  -lz 
+libtool: link: rm -fr  .libs/libpng12.a .libs/libpng12.la .libs/libpng12.lai
+libtool: link: ar cru .libs/libpng12.a  libpng12_la-png.o libpng12_la-pngset.o libpng12_la-pngget.o libpng12_la-pngrutil.o libpng12_la-pngtrans.o libpng12_la-pngwutil.o libpng12_la-pngread.o libpng12_la-pngrio.o libpng12_la-pngwio.o libpng12_la-pngwrite.o libpng12_la-pngrtran.o libpng12_la-pngwtran.o libpng12_la-pngmem.o libpng12_la-pngerror.o libpng12_la-pngpread.o
+libtool: link: ranlib .libs/libpng12.a
+libtool: link: ( cd ".libs" && rm -f "libpng12.la" && ln -s "../libpng12.la" "libpng12.la" )
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-png.lo -MD -MP -MF .deps/libpng_la-png.Tpo -c -o libpng_la-png.lo `test -f 'png.c' || echo './'`png.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-png.lo -MD -MP -MF .deps/libpng_la-png.Tpo -c png.c -o libpng_la-png.o
+mv -f .deps/libpng_la-png.Tpo .deps/libpng_la-png.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngset.lo -MD -MP -MF .deps/libpng_la-pngset.Tpo -c -o libpng_la-pngset.lo `test -f 'pngset.c' || echo './'`pngset.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngset.lo -MD -MP -MF .deps/libpng_la-pngset.Tpo -c pngset.c -o libpng_la-pngset.o
+mv -f .deps/libpng_la-pngset.Tpo .deps/libpng_la-pngset.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngget.lo -MD -MP -MF .deps/libpng_la-pngget.Tpo -c -o libpng_la-pngget.lo `test -f 'pngget.c' || echo './'`pngget.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngget.lo -MD -MP -MF .deps/libpng_la-pngget.Tpo -c pngget.c -o libpng_la-pngget.o
+mv -f .deps/libpng_la-pngget.Tpo .deps/libpng_la-pngget.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngrutil.lo -MD -MP -MF .deps/libpng_la-pngrutil.Tpo -c -o libpng_la-pngrutil.lo `test -f 'pngrutil.c' || echo './'`pngrutil.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngrutil.lo -MD -MP -MF .deps/libpng_la-pngrutil.Tpo -c pngrutil.c -o libpng_la-pngrutil.o
+mv -f .deps/libpng_la-pngrutil.Tpo .deps/libpng_la-pngrutil.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngtrans.lo -MD -MP -MF .deps/libpng_la-pngtrans.Tpo -c -o libpng_la-pngtrans.lo `test -f 'pngtrans.c' || echo './'`pngtrans.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngtrans.lo -MD -MP -MF .deps/libpng_la-pngtrans.Tpo -c pngtrans.c -o libpng_la-pngtrans.o
+mv -f .deps/libpng_la-pngtrans.Tpo .deps/libpng_la-pngtrans.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngwutil.lo -MD -MP -MF .deps/libpng_la-pngwutil.Tpo -c -o libpng_la-pngwutil.lo `test -f 'pngwutil.c' || echo './'`pngwutil.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngwutil.lo -MD -MP -MF .deps/libpng_la-pngwutil.Tpo -c pngwutil.c -o libpng_la-pngwutil.o
+mv -f .deps/libpng_la-pngwutil.Tpo .deps/libpng_la-pngwutil.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngread.lo -MD -MP -MF .deps/libpng_la-pngread.Tpo -c -o libpng_la-pngread.lo `test -f 'pngread.c' || echo './'`pngread.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngread.lo -MD -MP -MF .deps/libpng_la-pngread.Tpo -c pngread.c -o libpng_la-pngread.o
+mv -f .deps/libpng_la-pngread.Tpo .deps/libpng_la-pngread.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngrio.lo -MD -MP -MF .deps/libpng_la-pngrio.Tpo -c -o libpng_la-pngrio.lo `test -f 'pngrio.c' || echo './'`pngrio.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngrio.lo -MD -MP -MF .deps/libpng_la-pngrio.Tpo -c pngrio.c -o libpng_la-pngrio.o
+mv -f .deps/libpng_la-pngrio.Tpo .deps/libpng_la-pngrio.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngwio.lo -MD -MP -MF .deps/libpng_la-pngwio.Tpo -c -o libpng_la-pngwio.lo `test -f 'pngwio.c' || echo './'`pngwio.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngwio.lo -MD -MP -MF .deps/libpng_la-pngwio.Tpo -c pngwio.c -o libpng_la-pngwio.o
+mv -f .deps/libpng_la-pngwio.Tpo .deps/libpng_la-pngwio.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngwrite.lo -MD -MP -MF .deps/libpng_la-pngwrite.Tpo -c -o libpng_la-pngwrite.lo `test -f 'pngwrite.c' || echo './'`pngwrite.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngwrite.lo -MD -MP -MF .deps/libpng_la-pngwrite.Tpo -c pngwrite.c -o libpng_la-pngwrite.o
+mv -f .deps/libpng_la-pngwrite.Tpo .deps/libpng_la-pngwrite.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngrtran.lo -MD -MP -MF .deps/libpng_la-pngrtran.Tpo -c -o libpng_la-pngrtran.lo `test -f 'pngrtran.c' || echo './'`pngrtran.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngrtran.lo -MD -MP -MF .deps/libpng_la-pngrtran.Tpo -c pngrtran.c -o libpng_la-pngrtran.o
+mv -f .deps/libpng_la-pngrtran.Tpo .deps/libpng_la-pngrtran.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngwtran.lo -MD -MP -MF .deps/libpng_la-pngwtran.Tpo -c -o libpng_la-pngwtran.lo `test -f 'pngwtran.c' || echo './'`pngwtran.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngwtran.lo -MD -MP -MF .deps/libpng_la-pngwtran.Tpo -c pngwtran.c -o libpng_la-pngwtran.o
+mv -f .deps/libpng_la-pngwtran.Tpo .deps/libpng_la-pngwtran.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngmem.lo -MD -MP -MF .deps/libpng_la-pngmem.Tpo -c -o libpng_la-pngmem.lo `test -f 'pngmem.c' || echo './'`pngmem.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngmem.lo -MD -MP -MF .deps/libpng_la-pngmem.Tpo -c pngmem.c -o libpng_la-pngmem.o
+mv -f .deps/libpng_la-pngmem.Tpo .deps/libpng_la-pngmem.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngerror.lo -MD -MP -MF .deps/libpng_la-pngerror.Tpo -c -o libpng_la-pngerror.lo `test -f 'pngerror.c' || echo './'`pngerror.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngerror.lo -MD -MP -MF .deps/libpng_la-pngerror.Tpo -c pngerror.c -o libpng_la-pngerror.o
+mv -f .deps/libpng_la-pngerror.Tpo .deps/libpng_la-pngerror.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile cc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG    -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngpread.lo -MD -MP -MF .deps/libpng_la-pngpread.Tpo -c -o libpng_la-pngpread.lo `test -f 'pngpread.c' || echo './'`pngpread.c
+libtool: compile:  cc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT libpng_la-pngpread.lo -MD -MP -MF .deps/libpng_la-pngpread.Tpo -c pngpread.c -o libpng_la-pngpread.o
+mv -f .deps/libpng_la-pngpread.Tpo .deps/libpng_la-pngpread.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link cc  -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -rpath '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib' -no-undefined -export-dynamic -version-number 3:57:0 -L/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib -o libpng.la  libpng_la-png.lo libpng_la-pngset.lo libpng_la-pngget.lo libpng_la-pngrutil.lo libpng_la-pngtrans.lo libpng_la-pngwutil.lo libpng_la-pngread.lo libpng_la-pngrio.lo libpng_la-pngwio.lo libpng_la-pngwrite.lo libpng_la-pngrtran.lo libpng_la-pngwtran.lo libpng_la-pngmem.lo libpng_la-pngerror.lo libpng_la-pngpread.lo  -lz 
+libtool: link: rm -fr  .libs/libpng.a .libs/libpng.la .libs/libpng.lai
+libtool: link: ar cru .libs/libpng.a  libpng_la-png.o libpng_la-pngset.o libpng_la-pngget.o libpng_la-pngrutil.o libpng_la-pngtrans.o libpng_la-pngwutil.o libpng_la-pngread.o libpng_la-pngrio.o libpng_la-pngwio.o libpng_la-pngwrite.o libpng_la-pngrtran.o libpng_la-pngwtran.o libpng_la-pngmem.o libpng_la-pngerror.o libpng_la-pngpread.o
+libtool: link: ranlib .libs/libpng.a
+libtool: link: ( cd ".libs" && rm -f "libpng.la" && ln -s "../libpng.la" "libpng.la" )
+cp libpng-config libpng12-config
+cp libpng.pc libpng12.pc
+make  pngtest
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libpng-1.2.57'
+cc -DHAVE_CONFIG_H -I.     -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -MT pngtest.o -MD -MP -MF .deps/pngtest.Tpo -c -o pngtest.o pngtest.c
+mv -f .deps/pngtest.Tpo .deps/pngtest.Po
+/bin/sh ./libtool  --tag=CC   --mode=link cc  -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include  -L/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib -o pngtest pngtest.o libpng12.la -lz 
+libtool: link: cc -DPNG_USER_WIDTH_MAX=200000000L -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -o pngtest pngtest.o  -L/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib ./.libs/libpng12.a -lz
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libpng-1.2.57'
+make  check-TESTS
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libpng-1.2.57'
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libpng-1.2.57'
+PASS: test-pngtest.sh
+============================================================================
+Testsuite summary for libpng 1.2.57
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libpng-1.2.57'
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libpng-1.2.57'
+make[2]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libpng-1.2.57'
+ /usr/bin/mkdir -p '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/bin'
+ /usr/bin/install -c libpng12-config '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/bin'
+ /usr/bin/mkdir -p '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libpng12.la libpng.la '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib'
+libtool: install: /usr/bin/install -c .libs/libpng12.lai /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libpng12.la
+libtool: install: /usr/bin/install -c .libs/libpng.lai /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libpng.la
+libtool: install: /usr/bin/install -c .libs/libpng12.a /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libpng12.a
+libtool: install: chmod 644 /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libpng12.a
+libtool: install: ranlib /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libpng12.a
+libtool: install: /usr/bin/install -c .libs/libpng.a /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libpng.a
+libtool: install: chmod 644 /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libpng.a
+libtool: install: ranlib /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libpng.a
+libtool: finish: PATH="/apps/ops/prod/libs/intel/19.1.3.304/wgrib2/2.0.8/bin:/apps/spack/libpng/1.6.37/intel/19.1.3.304/4ohkronuhlyherusoszzrmur5ewvlwzh/bin:/apps/spack/jasper/2.0.25/intel/19.1.3.304/sjib74krrorkyczqpqah4tvewmlnqdx4/bin:/pe/intel/compilers_and_libraries_2020.4.304/linux/bin/intel64:/pe/intel/compilers_and_libraries_2020.4.304/linux/bin:/pe/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/bin:/pe/intel/debugger_2020/gdb/intel64/bin:/opt/cray/pe/craype/2.7.8/bin:/opt/cray/libfabric/1.11.0.4.75/bin:/opt/clmgr/sbin:/opt/clmgr/bin:/opt/sgi/sbin:/opt/sgi/bin:/usr/local/bin:/usr/bin:/bin:/usr/lib/mit/bin:/usr/lib/mit/sbin:/opt/pbs/bin:/sbin:/u/Jun.Du/bin:/lfs/h2/emc/lam/noscrub/Jun.Du/dbrowse:/usrx/local/emc_rocoto/1.2.3/bin:/opt/cray/pe/bin:/sbin" ldconfig -n /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make  install-exec-hook
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libpng-1.2.57'
+cd /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/bin; rm -f libpng-config
+cd /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/bin; ln -s libpng12-config libpng-config
++ cd /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib
++ for ext in a la so sl dylib
++ rm -f libpng.a
++ test -f libpng12.a
++ ln -s libpng12.a libpng.a
++ for ext in a la so sl dylib
++ rm -f libpng.la
++ test -f libpng12.la
++ ln -s libpng12.la libpng.la
++ for ext in a la so sl dylib
++ rm -f libpng.so
++ test -f libpng12.so
++ for ext in a la so sl dylib
++ rm -f libpng.sl
++ test -f libpng12.sl
++ for ext in a la so sl dylib
++ rm -f libpng.dylib
++ test -f libpng12.dylib
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libpng-1.2.57'
+ /usr/bin/mkdir -p '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/man/man3'
+ /usr/bin/install -c -m 644 libpng.3 libpngpf.3 '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/man/man3'
+ /usr/bin/mkdir -p '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/man/man5'
+ /usr/bin/install -c -m 644 png.5 '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/share/man/man5'
+ /usr/bin/mkdir -p '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libpng12.pc '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/pkgconfig'
+ /usr/bin/mkdir -p '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include/libpng12'
+ /usr/bin/install -c -m 644 png.h pngconf.h '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include/libpng12'
+make  install-data-hook
+make[3]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libpng-1.2.57'
+cd /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include; rm -f png.h pngconf.h
+cd /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include; ln -s libpng12/png.h png.h
+cd /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include; ln -s libpng12/pngconf.h pngconf.h
+cd /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/pkgconfig; rm -f libpng.pc
+cd /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/pkgconfig; ln -s libpng12.pc libpng.pc
+make[3]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libpng-1.2.57'
+make[2]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libpng-1.2.57'
+make[1]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/libpng-1.2.57'
+cd "/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/ip2lib_d" && export FFLAGS=""" -c -O2 -nofor_main  -cxxlib -qopenmp" && export FTN_REAL8="-r8"  && make && cp libip2_d.a /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib/libip2_d.a
+make[1]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/ip2lib_d'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/ip2lib_d'
+cd "/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/gctpc/source" && export CPPFLAGS="-I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include " && make -f makefile.gctpc
+make[1]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/gctpc/source'
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    alberfor.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    alberinv.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    alconinv.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    aziminv.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    eqconinv.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    equifor.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    equiinv.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    imolwfor.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    imolwinv.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    inv_init.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    lamccfor.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    merfor.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    merinv.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    millinv.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    molwinv.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    paksz.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    psfor.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    robfor.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    somfor.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    sphdz.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    sterfor.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    utmfor.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    wivfor.c
+ar -ruv libgeo.a gctp.o alberfor.o alberinv.o alconfor.o alconinv.o azimfor.o aziminv.o eqconfor.o eqconinv.o equifor.o equiinv.o for_init.o gnomfor.o gnominv.o goodfor.o goodinv.o gvnspfor.o gvnspinv.o hamfor.o haminv.o imolwfor.o imolwinv.o inv_init.o lamazfor.o lamazinv.o lamccfor.o lamccinv.o merfor.o merinv.o millfor.o millinv.o molwfor.o molwinv.o obleqfor.o obleqinv.o omerfor.o omerinv.o orthfor.o orthinv.o paksz.o polyinv.o polyfor.o psinv.o psfor.o robinv.o robfor.o sininv.o sinfor.o sominv.o somfor.o sphdz.o sterinv.o sterfor.o stplninv.o stplnfor.o tminv.o tmfor.o utminv.o utmfor.o untfz.o vandginv.o vandgfor.o wivinv.o wivfor.o wviiinv.o wviifor.o cproj.o report.o
+r - gctp.o
+r - alberfor.o
+r - alberinv.o
+r - alconfor.o
+r - alconinv.o
+r - azimfor.o
+r - aziminv.o
+r - eqconfor.o
+r - eqconinv.o
+r - equifor.o
+r - equiinv.o
+r - for_init.o
+r - gnomfor.o
+r - gnominv.o
+r - goodfor.o
+r - goodinv.o
+r - gvnspfor.o
+r - gvnspinv.o
+r - hamfor.o
+r - haminv.o
+r - imolwfor.o
+r - imolwinv.o
+r - inv_init.o
+r - lamazfor.o
+r - lamazinv.o
+r - lamccfor.o
+r - lamccinv.o
+r - merfor.o
+r - merinv.o
+r - millfor.o
+r - millinv.o
+r - molwfor.o
+r - molwinv.o
+r - obleqfor.o
+r - obleqinv.o
+r - omerfor.o
+r - omerinv.o
+r - orthfor.o
+r - orthinv.o
+r - paksz.o
+r - polyinv.o
+r - polyfor.o
+r - psinv.o
+r - psfor.o
+r - robinv.o
+r - robfor.o
+r - sininv.o
+r - sinfor.o
+r - sominv.o
+r - somfor.o
+r - sphdz.o
+r - sterinv.o
+r - sterfor.o
+r - stplninv.o
+r - stplnfor.o
+r - tminv.o
+r - tmfor.o
+r - utminv.o
+r - utmfor.o
+r - untfz.o
+r - vandginv.o
+r - vandgfor.o
+r - wivinv.o
+r - wivfor.o
+r - wviiinv.o
+r - wviifor.o
+r - cproj.o
+r - report.o
+make[1]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/gctpc/source'
+cp /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/gctpc/source/libgeo.a /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib
+cp /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/gctpc/source/proj.h /lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include/
+cd "wgrib2" && export LDFLAGS="-L/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib -lip2_d -lifcore -lc -limf -lintlc -lgeo -laec -lnetcdf -lpng -lz -lm" && export CPPFLAGS="-I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include " && make
+make[1]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/wgrib2'
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    wgrib2.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    wgrib2_api.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Warn_old_g2lib.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    unpk_run_length.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    units.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Time_processing.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    swap_buffer.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    space_view.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    simple_pk.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Set_prob.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Set_metadata.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Set_ftime2.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Set_ftime1.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Set_ens_num.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Sec3.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Scaling_0001.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    rotll.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    prod_def_temp_size.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    parse_msg.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    parse_loop.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Ncpu.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    NCEP_uv.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    ncep_grids.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Mysql_dump.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Mysql.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Merge.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Match_fs.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Macro.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Irr_grids.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Import_netcdf.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include   gribtab.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    geo.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Ftime.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Ftime2.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    fnlist.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Flush.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    flt2ieee.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    FlagTable.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Fix_ncep_2.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Fcst_ave.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    fatal_error.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    ExtName.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Ens_processing.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Earth.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Dump.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Csv_long.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Code_Values.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include   CodeTable.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include   cname.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    bitstream.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Ave_var.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Alias.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    addtime.c
+cc -o wgrib2 -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include   wxtext.o wrtieee.o Wrt_grib.o Wind_speed.o Wind_dir.o wgrib2.o wgrib2_api.o Waves.o Warn_old_g2lib.o VerfTime.o update_sec4.o unpk_run_length.o unpk_complex.o unpk.o unpk_0.o Unix_time.o units.o Undefine.o UDF.o Tosubmsg.o Time_processing.o Tigge.o test_sec.o swap_buffer.o Summary.o subtime.o Submsg_uv.o Status.o stagger.o Spectral_bands.o SpatialProcessing.o space_view.o space_view2ij.o Small_grib.o simple_pk.o Set_val.o setup_user_gribtable.o Set_ts_dates.o Set_sec_size.o Set_prob.o Set_percentile.o Set_pdt.o Set_metadata.o Set_ftime2.o Set_ftime1.o Set_ens_num.o Set_ensm_derived_fcst.o Set_date.o Set_byte.o Sec_len.o Sec6.o Sec5.o Sec4.o sec3_grids.o Sec3.o Sec1.o Sec0.o Scan.o Scaling_0001.o save_string.o RPN.o rotll.o Reduced_gaussian_grid.o rd_seq_grib.o rd_inventory.o rdieee_file.o Range.o proj4_transform.o proj4_initialize.o Proj4.o prod_def_temp_size.o Prob.o Precision.o parse_msg.o parse_loop.o openmp_util.o new_grid_lambertc.o New_grid.o Netcdf_sup.o Netcdf.o Ndates.o Ndate.o Ncpu.o NCEP_uv.o NCEP_norm.o ncep_grids.o Mysql_speed.o Mysql_dump.o Mysql.o Mod_grib.o Model_version_date.o mk_kgds.o mk_gdt.o missing.o Misc.o Merge.o Mem_buffer.o Match_fs.o Match.o manage_inv_out.o Macro.o Lola.o Limit.o Level.o Latlon.o lat2ij.o Last.o jpeg_pk.o JMA.o itoshort_a.o Irr_grids.o Inv_no.o Inv.o intpower.o int8.o init.o Import_netcdf.o Import_grib.o Import.o If_rec.o ieee_pk.o ieee2flt_nan.o ieee2flt.o Hybrid.o Help.o Gridout.o grid_ident.o Grid_id.o Grid_def.o gribtab.o Grib_out_irr.o Grib_out_irr2.o Grib.o Grads.o geo.o GDT.o gctpc_ll2xy.o Gctpc.o Ftn_api.o Ftime.o Ftime2.o Ftime1.o For.o fnlist.o Flush.o flt2ieee_nan.o flt2ieee.o FlagTable.o Fix_ncep.o Fix_ncep_4.o Fix_ncep_3.o Fix_ncep_2.o Fix_CFSv2_fcst.o File.o Fi.o ffopen.o Fcst_ave.o fatal_error.o ExtName.o EOF.o Ens_processing.o Ensemble.o End.o enc_jpeg2000_clone.o Earth.o Dump.o dec_png_clone.o Data.o Cyclic.o Csv_long.o Csv.o Cress_lola.o crc32.o copy.o Config.o complex_pk.o Code_Values.o CodeTable.o codetable_4_230.o cname.o Checksum.o Box_ave.o bitstream.o Bbox.o Ave_var.o Ave_test.o Alias.o Alarm.o Aerosol.o aec_pk.o addtime.o AAIGlong.o AAIG.o -L/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib -lip2_d -lifcore -lc -limf -lintlc -lgeo -laec -lnetcdf -lpng -lz -lm
+rm Config.o
+make[1]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/wgrib2'
+++ make lib
+cd "wgrib2" && export LDFLAGS="-L/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib -lip2_d -lifcore -lc -limf -lintlc -lgeo -laec -lnetcdf -lpng -lz -lm" && export CPPFLAGS="-I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include " && export FFLAGS=""" -c -O2 -nofor_main  -cxxlib -qopenmp" && make lib
+make[1]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/wgrib2'
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include    Config.c
+touch libwgrib2.a ; rm libwgrib2.a
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include   -DCALLABLE_WGRIB2 wgrib2.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include   -DCALLABLE_WGRIB2 fatal_error.c
+cc -c -I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include   -DCALLABLE_WGRIB2 wgrib2_api.c
+wgrib2_api.c(41): warning #167: argument of type "const char **" is incompatible with parameter of type "char **"
+      i = wgrib2(count+1, argv);
+                          ^
+
+ar -ruv libwgrib2.a *.o
+ar: creating libwgrib2.a
+a - AAIGlong.o
+a - AAIG.o
+a - addtime.o
+a - aec_pk.o
+a - Aerosol.o
+a - Alarm.o
+a - Alias.o
+a - Ave_test.o
+a - Ave_var.o
+a - Bbox.o
+a - bitstream.o
+a - Box_ave.o
+a - Checksum.o
+a - cname.o
+a - codetable_4_230.o
+a - CodeTable.o
+a - Code_Values.o
+a - complex_pk.o
+a - Config.o
+a - copy.o
+a - crc32.o
+a - Cress_lola.o
+a - Csv_long.o
+a - Csv.o
+a - Cyclic.o
+a - Data.o
+a - dec_png_clone.o
+a - Dump.o
+a - Earth.o
+a - enc_jpeg2000_clone.o
+a - End.o
+a - Ensemble.o
+a - Ens_processing.o
+a - EOF.o
+a - ExtName.o
+a - fatal_error.o
+a - Fcst_ave.o
+a - ffopen.o
+a - File.o
+a - Fi.o
+a - Fix_CFSv2_fcst.o
+a - Fix_ncep_2.o
+a - Fix_ncep_3.o
+a - Fix_ncep_4.o
+a - Fix_ncep.o
+a - FlagTable.o
+a - flt2ieee_nan.o
+a - flt2ieee.o
+a - Flush.o
+a - fnlist.o
+a - For.o
+a - Ftime1.o
+a - Ftime2.o
+a - Ftime.o
+a - Ftn_api.o
+a - gctpc_ll2xy.o
+a - Gctpc.o
+a - GDT.o
+a - geo.o
+a - Grads.o
+a - Grib.o
+a - Grib_out_irr2.o
+a - Grib_out_irr.o
+a - gribtab.o
+a - Grid_def.o
+a - grid_ident.o
+a - Grid_id.o
+a - Gridout.o
+a - Help.o
+a - Hybrid.o
+a - ieee2flt_nan.o
+a - ieee2flt.o
+a - ieee_pk.o
+a - If_rec.o
+a - Import_grib.o
+a - Import_netcdf.o
+a - Import.o
+a - init.o
+a - int8.o
+a - intpower.o
+a - Inv_no.o
+a - Inv.o
+a - Irr_grids.o
+a - itoshort_a.o
+a - JMA.o
+a - jpeg_pk.o
+a - Last.o
+a - lat2ij.o
+a - Latlon.o
+a - Level.o
+a - Limit.o
+a - Lola.o
+a - Macro.o
+a - manage_inv_out.o
+a - Match_fs.o
+a - Match.o
+a - Mem_buffer.o
+a - Merge.o
+a - Misc.o
+a - missing.o
+a - mk_gdt.o
+a - mk_kgds.o
+a - Model_version_date.o
+a - Mod_grib.o
+a - Mysql_dump.o
+a - Mysql.o
+a - Mysql_speed.o
+a - ncep_grids.o
+a - NCEP_norm.o
+a - NCEP_uv.o
+a - Ncpu.o
+a - Ndate.o
+a - Ndates.o
+a - Netcdf.o
+a - Netcdf_sup.o
+a - new_grid_lambertc.o
+a - New_grid.o
+a - openmp_util.o
+a - parse_loop.o
+a - parse_msg.o
+a - Precision.o
+a - Prob.o
+a - prod_def_temp_size.o
+a - proj4_initialize.o
+a - Proj4.o
+a - proj4_transform.o
+a - Range.o
+a - rdieee_file.o
+a - rd_inventory.o
+a - rd_seq_grib.o
+a - Reduced_gaussian_grid.o
+a - rotll.o
+a - RPN.o
+a - save_string.o
+a - Scaling_0001.o
+a - Scan.o
+a - Sec0.o
+a - Sec1.o
+a - sec3_grids.o
+a - Sec3.o
+a - Sec4.o
+a - Sec5.o
+a - Sec6.o
+a - Sec_len.o
+a - Set_byte.o
+a - Set_date.o
+a - Set_ensm_derived_fcst.o
+a - Set_ens_num.o
+a - Set_ftime1.o
+a - Set_ftime2.o
+a - Set_metadata.o
+a - Set_pdt.o
+a - Set_percentile.o
+a - Set_prob.o
+a - Set_sec_size.o
+a - Set_ts_dates.o
+a - setup_user_gribtable.o
+a - Set_val.o
+a - simple_pk.o
+a - Small_grib.o
+a - space_view2ij.o
+a - space_view.o
+a - SpatialProcessing.o
+a - Spectral_bands.o
+a - stagger.o
+a - Status.o
+a - Submsg_uv.o
+a - subtime.o
+a - Summary.o
+a - swap_buffer.o
+a - test_sec.o
+a - Tigge.o
+a - Time_processing.o
+a - Tosubmsg.o
+a - UDF.o
+a - Undefine.o
+a - units.o
+a - Unix_time.o
+a - unpk_0.o
+a - unpk_complex.o
+a - unpk.o
+a - unpk_run_length.o
+a - update_sec4.o
+a - VerfTime.o
+a - Warn_old_g2lib.o
+a - Waves.o
+a - wgrib2_api.o
+a - wgrib2.o
+a - Wind_dir.o
+a - Wind_speed.o
+a - Wrt_grib.o
+a - wrtieee.o
+a - wxtext.o
+rm wgrib2.o fatal_error.o wgrib2_api.o
+make[1]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/wgrib2'
+cp wgrib2/libwgrib2.a lib/libwgrib2x.a
+export CPPFLAGS="-I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include " && export FFLAGS=""" -c -O2 -nofor_main  -cxxlib -qopenmp" && cd ftn_api && make
+make[1]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/ftn_api'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/ftn_api'
+cp ftn_api/wgrib2api.mod lib/
+cp ftn_api/wgrib2lowapi.mod lib/
+cp ftn_api/libwgrib2_api.a lib/
+export CPPFLAGS="-I/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/include -O2 -DIFORT -cxxlib -qopenmp -I/usr/include " && export FFLAGS=""" -c -O2 -nofor_main  -cxxlib -qopenmp" && cd c_api && make
+make[1]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/c_api'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/c_api'
+cd lib && make
+make[1]: Entering directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib'
+mkdir -p libz && touch libz/junk && rm -r libz/*
+cd libz && ar x ../libz.a
+touch libz.x
+mkdir -p libwgrib2x && touch libwgrib2x/junk && rm -r libwgrib2x/*
+cd libwgrib2x && ar x ../libwgrib2x.a
+touch libwgrib2x.x
+mkdir -p libwgrib2_api && touch libwgrib2_api/junk && rm -r libwgrib2_api/*
+cd libwgrib2_api && ar x ../libwgrib2_api.a
+touch libwgrib2_api.x
+mkdir -p libsz && touch libsz/junk && rm -r libsz/*
+cd libsz && ar x ../libsz.a
+touch libsz.x
+mkdir -p libpng && touch libpng/junk && rm -r libpng/*
+cd libpng && ar x ../libpng.a
+touch libpng.x
+mkdir -p libpng12 && touch libpng12/junk && rm -r libpng12/*
+cd libpng12 && ar x ../libpng12.a
+touch libpng12.x
+mkdir -p libnetcdf && touch libnetcdf/junk && rm -r libnetcdf/*
+cd libnetcdf && ar x ../libnetcdf.a
+touch libnetcdf.x
+mkdir -p libip2_d && touch libip2_d/junk && rm -r libip2_d/*
+cd libip2_d && ar x ../libip2_d.a
+touch libip2_d.x
+mkdir -p libgeo && touch libgeo/junk && rm -r libgeo/*
+cd libgeo && ar x ../libgeo.a
+touch libgeo.x
+mkdir -p libaec && touch libaec/junk && rm -r libaec/*
+cd libaec && ar x ../libaec.a
+touch libaec.x
+ar cr libwgrib2.a */*.o
+rm */*.o *.x
+rm -r libz libwgrib2x libwgrib2_api libsz libpng libpng12 libnetcdf libip2_d libgeo libaec
+make[1]: Leaving directory '/lfs/h2/emc/vpppg/noscrub/Jun.Du/pcpanl/pcpanl.v4.1.0/lib/grib2/lib'

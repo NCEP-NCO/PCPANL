@@ -1,0 +1,50 @@
+suite prod
+  family primary
+  family 06
+  family pcpanl
+  edit PROJ 'RTMA'
+ edit PACKAGEHOME '/lfs/h1/ops/%ENVIR%/packages/pcpanl.%pcpanl_ver%'
+ 
+family v4.1
+ 
+    family 06z
+      edit CYC '06'
+      task jpcpanl
+        event 2 stage4_done
+        time 06:55
+    endfamily
+    family 07z
+      edit CYC '07'
+      task jpcpanl
+        event 2 stage4_done
+        time 07:55
+    endfamily
+    family 08z
+      edit CYC '08'
+      task jpcpanl
+        event 2 stage4_done
+        time 08:55
+    endfamily
+    family 09z
+      edit CYC '09'
+      task jpcpanl
+        event 2 stage4_done
+        time 09:55
+    endfamily
+    family 10z
+      edit CYC '10'
+      task jpcpanl
+        event 2 stage4_done
+        time 10:55
+    endfamily
+    family 11z
+      edit CYC '11'
+      task jpcpanl
+        event 2 stage4_done
+        time 11:55
+    endfamily
+  endfamily
+  endfamily
+  endfamily
+  endfamily
+endsuite

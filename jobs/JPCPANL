@@ -1,0 +1,138 @@
+#!/bin/sh
+
+#############################################################################
+# Produce 4km Stage 2/Stage 4 precip analyses
+#############################################################################
+echo Actual output starts here
+date
+export PS4=' $SECONDS + '
+echo cyc is ${cyc:?}                 # ensure cyc defined
+echo envir is ${envir:?}             # ensure envir defined
+echo pcpanl_ver is ${pcpanl_ver:?}   # ensure pcpanl_ver defined
+set -x
+
+# if machine=ccs, some things in sub-scripts are handled differently:
+export machine=wcoss2
+
+###############################################################
+# Specify NET, RUN, and cycle
+###############################################################
+export NET=pcpanl
+export RUN=pcpanl
+export cycle=t${cyc}z
+
+####################################
+# File To Log Msgs
+####################################
+if [ "${RUN_ENVIR,,}" != "nco" ]; then
+  # DEV  wrkdir set in ecf script for 'userdev'.
+  export jlogfile=${jlogfile:-$DATAROOT/jlogfile}
+  export SENDDBN=NO
+  export SENDDBN_NTC=NO
+  export jobid="${outid}.o$$"
+  export SENDCOM=YES
+  export SENDDBN=NO
+fi
+
+export DATA=${DATA:-${DATAROOT:?}/${jobid:?}}
+export DATAST4=$DATA/st4
+mkdir -p $DATAST4
+export jlogfile=${jlogfile:-$DATA/jlogfile}
+cd $DATA
+
+####################################
+# Determine Job Output Name on System
+####################################
+export pgmout="OUTPUT.$$"
+
+####################################
+# SENDCOM  - Copy Files From TMPDIR to $com
+# SENDDBN  - Send files to OSO
+####################################
+export SENDCOM=${SENDCOM:-YES}
+export SENDDBN=${SENDDBN:-YES}
+export SENDDBN_NTC=${SENDDBN_NTC:-YES}
+
+####################################
+# Specify Execution Areas
+####################################
+# For userdev, HOMEpcpanl is set in the dev LSF script. 
+export HOMEpcpanl=${HOMEpcpanl:-${NWROOT:?}/pcpanl.${pcpanl_ver}}
+export FIXpcpanl=$HOMEpcpanl/fix
+export USHpcpanl=$HOMEpcpanl/ush
+export PARMpcpanl=$HOMEpcpanl/parm
+export EXECpcpanl=$HOMEpcpanl/exec
+export SCRIPTpcpanl=$HOMEpcpanl/scripts
+# Two parm files needed for toc2grib2, for pcp RTMA and URMA:
+export utilparm=$HOMEpcpanl/util/parm
+# coltbl.xwp.wbg and wmogrib.tbl: 
+export GEMFIX=${GEMFIX:-$HOMEpcpanl/gempak/fix}
+# Default values for the retro/debug/mode, unless set otherwise by dev calling
+# script:
+export retro=${retro:-N}
+export debug=${debug:-N}
+export mode=${mode:-MULTI}
+
+#########################################
+# Run setpdy and initialize PDY variables
+#D########################################
+#/apps/ops/prod/nco/core/prod_util.v2.0.9/ush/setpdy.sh
+
+
+  setpdy.sh 9 1
+  . ./PDY
+
+
+##############################################
+# Define COM directories
+##############################################
+export COMIN=${COMIN:-$(compath.py  ${envir}/${NET}/${pcpanl_ver})}
+export COMOUT=${COMOUT:-$(compath.py -o ${NET}/${pcpanl_ver})}
+# In dev, COMURMA is specified in the ECF file
+export COMURMA=$COMOUT/pcpurma
+
+# Starting 14 May 2019 on Dell: DCOMROOT=/gpfs/dell1/nco/ops/dcom
+export MRMSDIR=$DCOMROOT/ldmdata/obs/upperair/mrms/conus/MultiSensorQPE
+
+# for RFC QPE (Stage IV) and for radar DPA: 
+export DCOM=$DCOMROOT
+# Rerun
+
+postmsg $jlogfile "Produce 4km stage2/4 precip analyses"
+
+mkdir -m 775 -p $COMOUT/$RUN.${PDYm9}
+mkdir -m 775 -p $COMOUT/$RUN.${PDYm8}
+mkdir -m 775 -p $COMOUT/$RUN.${PDYm7}
+mkdir -m 775 -p $COMOUT/$RUN.${PDYm6}
+mkdir -m 775 -p $COMOUT/$RUN.${PDYm5}
+mkdir -m 775 -p $COMOUT/$RUN.${PDYm4}
+mkdir -m 775 -p $COMOUT/$RUN.${PDYm3}
+mkdir -m 775 -p $COMOUT/$RUN.${PDYm2}
+mkdir -m 775 -p $COMOUT/$RUN.${PDYm1}
+mkdir -m 775 -p $COMOUT/$RUN.${PDY}
+
+env
+
+# So that we can get to the actual output quickly:
+echo "Actual output starts here:"
+
+#############################################################
+# Execute the script.
+#############################################################
+$SCRIPTpcpanl/expcpanl_stage4.sh
+export err=$?; err_chk
+
+#############################################################
+# Run post processing job
+#############################################################
+date
+$SCRIPTpcpanl/expcpanl_postproc.sh
+export err=$?; err_chk
+
+date
+postmsg $jlogfile "$0 completed normally"
+
+if [ "${KEEPDATA^^}" != YES ]; then
+  rm -rf $DATA
+fi
+

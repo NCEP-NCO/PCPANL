@@ -1,0 +1,40 @@
+#PBS -N jpcpanl_%CYC%
+#PBS -j oe 
+#PBS -S /bin/bash
+#PBS -A %PROJ%-%PROJENVIR%
+#PBS -q %QUEUE%
+#PBS -l walltime=00:25:00
+#PBS -l select=1:ncpus=2:mem=1200MB
+#PBS -l debug=true
+
+model=pcpanl
+%include <head.h>
+%include <envir-p1.h>
+
+# EXPORT list here
+export cyc=%CYC%
+
+export MAILTO=${MAILTO:-"ncep.sos@noaa.gov"}
+export MAILCC=${MAILCC:-"nco.spa@noaa.gov,jun.du@noaa.gov"}
+#############################################################
+# Load modules
+#############################################################
+module load intel/${intel_ver}
+module load cray-pals/${cray_pals_ver}
+module load cfp/${cfp_ver}
+module load libjpeg/${libjpeg_ver}
+module load grib_util/${grib_util_ver}
+module load wgrib2/${wgrib2_ver}
+module load gempak/${gempak_ver}
+module list
+
+$HOMEpcpanl/jobs/JPCPANL
+
+%include <tail.h>
+%manual
+######################################################################
+PURPOSE:  To create the hourly Stage II/Stage IV hourly/6-hourly/24h
+          precipitation analyses, and hourly precipitation RTMA.
+######################################################################
+%end
+
